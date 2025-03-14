@@ -1,0 +1,20 @@
+{
+    "titulo": "Regularidade das publicações em veículos da sua área de interesse nos últimos 10 anos",
+    "descricao": "Avalie a frequência de publicações em veículos relacionados à área de interesse das avaliações. Seja preciso e objetivo em sua resposta. Sua análise deve se limitar ao conteúdo do currículo fornecido, aos aspectos dos critérios de avaliação e aos dados qualitativos que podem ser inferidos.",
+    "consulta intermediaria": "Considerando que os dados a seguir são seções cortadas de um currículo, avalie a frequência de publicações em veículos relacionados à área de interesse das avaliações nessa sessão. Seja preciso, breve e objetivo em sua resposta e inclua a quantidade de trabalhos analisados. Sua análise deve se limitar ao conteúdo do currículo fornecido, aos aspectos dos critérios de avaliação e aos dados qualitativos que podem ser inferidos.",
+    "consulta final": "Considerando que os dados a seguir são análises de seções de um currículo, avalie a frequência de publicações em veículos relacionados à área de interesse das avaliações baseada nas análises do currículo. Seja preciso e objetivo em sua resposta e inclua a quantidade de trabalhos análisados. Sua análise deve se limitar ao conteúdo do currículo fornecido, aos aspectos dos critérios de avaliação e aos dados qualitativos que podem ser inferidos.",
+    "atributos": [
+        {
+            "tag": "PRODUCAO-BIBLIOGRAFICA",
+            "caminho": ["CURRICULO-VITAE"]
+        },
+        {
+            "tag": "PRODUCAO-TECNICA",
+            "caminho": ["CURRICULO-VITAE"]
+        }
+    ],
+    "response_format": {
+        "nota": "string",
+        "explicacao": "string"
+    }
+}
