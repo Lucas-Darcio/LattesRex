@@ -28,6 +28,7 @@ def main():
 
 
     st.title("Converse com o currículo")
+    st.warning(f"Entrou")
 
 
     disable_chat_bool = True
