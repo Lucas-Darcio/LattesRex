@@ -22,70 +22,71 @@ CONSULTAS_DIR = "consultas/"
 
 def main():
     st.set_page_config(
-            page_title="Converse com o currículo",
-            layout="wide"
+        page_title="Converse com o currículo",
+        layout="wide"
     )
 
-
     st.title("Converse com o currículo")
-    st.warning(f"Entrou")
 
+    if 'disable_chat_bool' not in st.session_state:
+        st.session_state.disable_chat_bool = True  # 'value'
 
-    disable_chat_bool = True
+    # disable_chat_bool = True
     curriculo_name = ""
 
     with st.sidebar:
-        
+
         passos = '''1 - Envie ou selecione um currículo no formato XML.   
         2 - Confirme a seleção de currículo para que ele vá para o contexto.   
         3 - Utilize o chat para realizar as atividades.   
 '''
-        
-        #cont_height = 500
+
+        # cont_height = 500
         st.header("Escolher Currículo")
         st.markdown(passos)
 
         # Upload de novo currículo
-        uploaded_file = st.sidebar.file_uploader("Faça upload de um currículo (XML)", type="xml")
+        uploaded_file = st.sidebar.file_uploader(
+            "Faça upload de um currículo (XML)", type="xml")
 
         # Exibe currículos existentes no diretório
         stored_resumes = list_curriculos(CURRICULO_DIR)
-        selected_resume = st.sidebar.selectbox("Ou escolha um currículo existente do nosso banco de dados", stored_resumes)
-        
+        selected_resume = st.sidebar.selectbox(
+            "Ou escolha um currículo existente do nosso banco de dados", stored_resumes)
+
         if uploaded_file:
             # curriculo_data = load_curriculo(os.path.join(CURRICULO_DIR, selected_resume))
             curriculo_data = process_resume(load_curriculo(uploaded_file))
             curriculo_name = uploaded_file.name
             st.sidebar.write(f"Currículo escolhido: {curriculo_name}")
         else:
-            curriculo_data = process_resume(os.path.join(CURRICULO_DIR, selected_resume))
+            curriculo_data = process_resume(
+                os.path.join(CURRICULO_DIR, selected_resume))
             curriculo_name = selected_resume
             st.sidebar.write(f"Currículo escolhido: {curriculo_name}")
-        
-        
-        if st.button("Confirmar currículo", type="primary"):
-        # Escolha final do currículo: preferindo o upload se houver
 
-            disable_chat_bool = not(disable_chat_bool)
-            print(disable_chat_bool)
-            
-    if not disable_chat_bool:
-            
+        if st.button("Confirmar currículo", type="primary"):
+            # Escolha final do currículo: preferindo o upload se houver
+            print(st.session_state.disable_chat_bool)
+            st.session_state.disable_chat_bool = not st.session_state.disable_chat_bool
+            print(st.session_state.disable_chat_bool)
+
+    if not st.session_state.disable_chat_bool:
+
         st.warning(f"curriculo {curriculo_name} carregado!")
 
-
-    
     # Inicia o o historico de mensagens na sessão
     if "messages" not in st.session_state:
         st.session_state.messages = []
-    
+
     # exibe o historico das mensganes
     for message in st.session_state.messages:
         with st.chat_message(message["role"]):
             st.markdown(message["content"])
-        
+
     # esntrando
-    user_input = st.chat_input(placeholder="Digite sua tarefa ou pergunta...", disabled=disable_chat_bool)
+    user_input = st.chat_input(
+        placeholder="Digite sua tarefa ou pergunta...", disabled=st.session_state.disable_chat_bool)
     
     if user_input:
         #adiciona a mensagem do usuario ao historico

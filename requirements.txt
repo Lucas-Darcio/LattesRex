@@ -1,7 +1,5 @@
 xmltodict
-streamlit
 openai
-numpy
-pandas
-json
-dotenv
+streamlit
+python-dotenv
+
