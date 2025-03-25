@@ -13,6 +13,8 @@ from app.data_access.file_manager import list_curriculos, load_curriculo
 
 from app.business_logic.compression_utils import extract_prompt_tags
 
+from app.api.openai_api import extract_related_tags
+
 # Diretório onde os currículos armazenados ficam
 CURRICULO_DIR = "curriculos/"
 
@@ -96,15 +98,25 @@ def main():
         with st.spinner("Carregando..."):
             #bot_reply = f"Chatbot: {user_input}"
             #bot_reply = openaiChat(user_input)
+
+
+            # CHAT analise o prompt e retorna tags relacionadas ao prompt, é uma string
+            tags_relacionadas = extract_related_tags(user_input)
+            print(tags_relacionadas)
             
-            user_input = extract_prompt_tags(user_input)
-            print(user_input[1])
+            # extrair tags (assuntos) alinhados com o prompt, lista de strings
+            tags_alinhadas = extract_prompt_tags(tags_relacionadas)
+            print("TAGS ALINHADAS:\n")
+            print(tags_alinhadas)
+
+            # manda o prompt do usuário separado das tags alinhadas
+            processed_data = extract_attributes_chatbot(tags_alinhadas, curriculo_data)
+            print(processed_data)
             
-            processed_data = extract_attributes_chatbot(user_input[1], curriculo_data)
-            
-            
+
             if processed_data:
-                bot_reply = handle_query_chat(processed_data, user_input[0])[0]
+                #bot_reply = handle_quer0y_chat(processed_data, user_input[0])[0]
+                bot_reply = "rodando..."
         
             else:
                 with st.chat_message("assistant"):
