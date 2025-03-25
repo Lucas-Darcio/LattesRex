@@ -111,12 +111,14 @@ def main():
 
             # manda o prompt do usuário separado das tags alinhadas
             processed_data = extract_attributes_chatbot(tags_alinhadas, curriculo_data)
-            print(processed_data)
+            # print(processed_data)
             
 
             if processed_data:
-                #bot_reply = handle_quer0y_chat(processed_data, user_input[0])[0]
-                bot_reply = "rodando..."
+                bot_reply = handle_query_chat(processed_data, user_input)[0]
+                #bot_reply = "rodando..."
+                print("Bot reply")
+                print(bot_reply)
         
             else:
                 with st.chat_message("assistant"):
@@ -127,7 +129,7 @@ def main():
 
         #atualiza a interface com a nova resposta
         with st.chat_message("user"):
-            st.markdown(user_input[0])
+            st.markdown(user_input)
             
         with st.chat_message("assistant"):
             st.markdown(bot_reply)
