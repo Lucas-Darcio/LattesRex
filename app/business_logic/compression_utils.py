@@ -164,39 +164,14 @@ Extrai as tags de um prompt e retorna o texto sem as tags e a lista de tags enco
 :return: Uma tupla onde o primeiro item é o prompt sem as tags e o segundo item 
 é a lista de tags extraídas.
 """         
-def extract_prompt_tags(prompt: str) -> tuple[str, list[str]]:
-    """
-    Extrai as tags de um prompt e retorna o texto sem as tags e a lista de tags encontradas.
-    
-    :param prompt: O texto do prompt contendo tags no formato "#tag"
-    :return: Uma tupla onde o primeiro item é o prompt sem as tags e o segundo item é a lista de tags extraídas.
-    """
-    words = prompt.split()
-    tags = []
-    cleaned_words = []
-    
-    collecting_tag = False
-    current_tag = ""
-    
-    for word in words:
-        if word.startswith("#"):
-            if collecting_tag:
-                tags.append(current_tag)
-            current_tag = word
-            collecting_tag = True
-        elif collecting_tag and ("-" in word or word.isalnum()):
-            current_tag += " " + word
-        else:
-            if collecting_tag:
-                tags.append(current_tag)
-                collecting_tag = False
-            cleaned_words.append(word)
-    
-    if collecting_tag:
-        tags.append(current_tag)
-    
-    cleaned_prompt = " ".join(cleaned_words)
-    return cleaned_prompt, tags
+def extract_prompt_tags(prompt: str):
+
+  tags = []
+  pattern = r'#\w[\w\-_=+]*'  # Matches # followed by alphanumeric characters, underscores, hyphens, equals, or plus
+  matches = re.findall(pattern, prompt)
+  for match in matches:
+      tags.append(match)
+  return tags
 
 # with open("altigran.json", "w") as f:
 #     json.dump(xml_to_dict("/home/amanda_spellen/code/pibic/feedback_app/lattes_llm_v3/app/business_logic/Altigran Soares da Silva.xml"), f)

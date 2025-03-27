@@ -44,6 +44,8 @@ def extract_attributes_chatbot(tags, curriculo):
 
     return result
 
+ 
+
 
 def handle_query_chat(curriculo_data, query):
     # Gera o contexto para o LLM a partir do currículo processado
