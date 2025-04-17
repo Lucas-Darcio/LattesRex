@@ -33,7 +33,7 @@ def extract_attributes_chatbot(tags, curriculo):
     result = {}
 
     for tag in tags:
-        print(tag)
+        #print(tag)
 
         valor = buscar_chave(curriculo, tag)
         

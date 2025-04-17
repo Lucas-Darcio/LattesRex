@@ -1,0 +1,825 @@
+### curriculo: Alba Cristina Magalhães Alves de Melo.xml
+# pergunta: Qual é a quantidade e a qualidade dos artigos publicados pelo pesquisador em periódicos indexados de alto impacto?
+# tags: ['#ARTIGOS-PUBLICADOS', '#PRODUCAO-BIBLIOGRAFICA']
+#Quantidade de tokens ao todo: 181713
+# pergunta: As publicações estão concentradas em revistas ou conferências de relevância na área de atuação?
+# tags: ['#PRODUCAO-BIBLIOGRAFICA', '#ARTIGOS-PUBLICADOS', '#ARTIGOS-ACEITOS-PARA-PUBLICACAO']
+#Quantidade de tokens ao todo: 181726
+# pergunta: Qual é o número de citações dos artigos do pesquisador em bases como Scopus ou Google Scholar?
+# tags: ['#PRODUCAO-BIBLIOGRAFICA', '#ARTIGOS-PUBLICADOS']
+#Quantidade de tokens ao todo: 181711
+# pergunta: O pesquisador possui índice h (h-index) ou outros indicadores de impacto significativo na sua área?
+# tags: ['#LINHA-DE-PESQUISA', '#PRODUCAO-BIBLIOGRAFICA']
+#Quantidade de tokens ao todo: 138722
+# pergunta: O pesquisador já liderou ou participou como proponente de projetos financiados por agências de fomento?
+# tags: ['#LINHA-DE-PESQUISA', '#PROJETO-DE-PESQUISA', '#FINANCIADORES-DO-PROJETO']
+#Quantidade de tokens ao todo: 2084
+# pergunta: Qual é o histórico do pesquisador em atrair recursos de pesquisa por meio de editais competitivos?
+# tags: ['#LINHA-DE-PESQUISA', '#PROJETO-DE-PESQUISA', '#FINANCIADORES-DO-PROJETO']
+#Quantidade de tokens ao todo: 2083
+# pergunta: Quantos alunos de mestrado, doutorado e iniciação científica o pesquisador já orientou ou está orientando?
+# tags: ['#ORIENTACOES']
+#Quantidade de tokens ao todo: 109
+# pergunta: Qual é a relevância das produções acadêmicas desenvolvidas por seus orientandos, como publicações ou trabalhos apresentados?
+# tags: ['#ORIENTACOES', '#PRODUCAO-BIBLIOGRAFICA', '#ARTIGOS-PUBLICADOS']
+#Quantidade de tokens ao todo: 181723
+# pergunta: O pesquisador contribui para a formação de alunos na graduação por meio de atividades como orientação de TCC ou projetos de pesquisa?
+# tags: ['#ORIENTACOES', '#PROJETO-DE-PESQUISA', '#ATIVIDADES-DE-ENSINO']
+#Quantidade de tokens ao todo: 1333
+# pergunta: Qual é o impacto das orientações na carreira acadêmica ou profissional dos alunos formados?
+# tags: ['#ORIENTACOES', '#ATIVIDADES-DE-ENSINO', '#FORMACAO-ACADEMICA-TITULACAO']
+#Quantidade de tokens ao todo: 2630
+# pergunta: O pesquisador participa de redes de colaboração nacionais ou  internacionais relevantes?
+# tags: ['#LINHA-DE-PESQUISA', '#PROJETO-DE-PESQUISA']
+#Quantidade de tokens ao todo: 1929
+# pergunta: Existem evidências de coautorias ou projetos conjuntos com outros pesquisadores de destaque?
+# tags: ['#LINHA-DE-PESQUISA', '#PROJETO-DE-PESQUISA', '#INTEGRANTES-DO-PROJETO']
+#Quantidade de tokens ao todo: 2467
+# pergunta: O pesquisador já ocupou cargos administrativos relevantes (ex.: coordenador de programa de pós-graduação, diretor de instituto, etc.)?
+# tags: ['#ATIVIDADES-DE-DIRECAO-E-ADMINISTRACAO']
+#Quantidade de tokens ao todo: 1136
+# pergunta: Ele lidera grupos de pesquisa reconhecidos pelo CNPq ou outras instituições?
+# tags: ['#EQUIPE-DO-PROJETO', '#ATIVIDADES-DE-PESQUISA-E-DESENVOLVIMENTO', '#LINHA-DE-PESQUISA']
+#Quantidade de tokens ao todo: 2761
+# pergunta: Há evidências de que os resultados das pesquisas do pesquisador geraram impacto social, tecnológico ou econômico?
+# tags: ['#LINHA-DE-PESQUISA', '#PROJETO-DE-PESQUISA', '#ATIVIDADES-DE-PESQUISA-E-DESENVOLVIMENTO']
+#Quantidade de tokens ao todo: 3431
+# pergunta: O pesquisador possui patentes ou outros produtos registrados oriundos de sua pesquisa?
+# tags: ['#REGISTRO-OU-PATENTE', '#PATENTE', '#PRODUTO-TECNOLOGICO']
+#Quantidade de tokens ao todo: 125
+# pergunta: O pesquisador foi convidado como palestrante em eventos científicos de prestígio?
+# tags: ['#ATIVIDADES-DE-ENSINO', '#ATIVIDADES-DE-PESQUISA-E-DESENVOLVIMENTO']
+#Quantidade de tokens ao todo: 1601
+# pergunta: Ele já recebeu prêmios ou reconhecimentos por sua contribuição científica?
+# tags: ['#PREMIOS-TITULOS']
+#Quantidade de tokens ao todo: 853
+### curriculo: Alfredo Goldman.xml
+# pergunta: Qual é a quantidade e a qualidade dos artigos publicados pelo pesquisador em periódicos indexados de alto impacto?
+# tags: ['#ARTIGOS-PUBLICADOS', '#PRODUCAO-BIBLIOGRAFICA']
+#Quantidade de tokens ao todo: 153940
+# pergunta: As publicações estão concentradas em revistas ou conferências de relevância na área de atuação?
+# tags: ['#PRODUCAO-BIBLIOGRAFICA', '#ARTIGOS-PUBLICADOS', '#ARTIGOS-ACEITOS-PARA-PUBLICACAO']
+#Quantidade de tokens ao todo: 153953
+# pergunta: Qual é o número de citações dos artigos do pesquisador em bases como Scopus ou Google Scholar?
+# tags: ['#PRODUCAO-BIBLIOGRAFICA', '#ARTIGOS-PUBLICADOS']
+#Quantidade de tokens ao todo: 153938
+# pergunta: O pesquisador possui índice h (h-index) ou outros indicadores de impacto significativo na sua área?
+# tags: ['#LINHA-DE-PESQUISA', '#PRODUCAO-BIBLIOGRAFICA']
+#Quantidade de tokens ao todo: 129634
+# pergunta: O pesquisador já liderou ou participou como proponente de projetos financiados por agências de fomento?
+# tags: ['#LINHA-DE-PESQUISA', '#PROJETO-DE-PESQUISA', '#FINANCIADORES-DO-PROJETO']
+#Quantidade de tokens ao todo: 3502
+# pergunta: Qual é o histórico do pesquisador em atrair recursos de pesquisa por meio de editais competitivos?
+# tags: ['#LINHA-DE-PESQUISA', '#PROJETO-DE-PESQUISA', '#FINANCIADORES-DO-PROJETO']
+#Quantidade de tokens ao todo: 3501
+# pergunta: Quantos alunos de mestrado, doutorado e iniciação científica o pesquisador já orientou ou está orientando?
+# tags: ['#ORIENTACOES']
+#Quantidade de tokens ao todo: 109
+# pergunta: Qual é a relevância das produções acadêmicas desenvolvidas por seus orientandos, como publicações ou trabalhos apresentados?
+# tags: ['#ORIENTACOES', '#PRODUCAO-BIBLIOGRAFICA', '#ARTIGOS-PUBLICADOS']
+#Quantidade de tokens ao todo: 153950
+# pergunta: O pesquisador contribui para a formação de alunos na graduação por meio de atividades como orientação de TCC ou projetos de pesquisa?
+# tags: ['#ORIENTACOES', '#PROJETO-DE-PESQUISA', '#ATIVIDADES-DE-ENSINO']
+#Quantidade de tokens ao todo: 15760
+# pergunta: Qual é o impacto das orientações na carreira acadêmica ou profissional dos alunos formados?
+# tags: ['#ORIENTACOES', '#ATIVIDADES-DE-ENSINO', '#FORMACAO-ACADEMICA-TITULACAO']
+#Quantidade de tokens ao todo: 15655
+# pergunta: O pesquisador participa de redes de colaboração nacionais ou  internacionais relevantes?
+# tags: ['#LINHA-DE-PESQUISA', '#PROJETO-DE-PESQUISA']
+#Quantidade de tokens ao todo: 3405
+# pergunta: Existem evidências de coautorias ou projetos conjuntos com outros pesquisadores de destaque?
+# tags: ['#LINHA-DE-PESQUISA', '#PROJETO-DE-PESQUISA', '#INTEGRANTES-DO-PROJETO']
+#Quantidade de tokens ao todo: 4018
+# pergunta: O pesquisador já ocupou cargos administrativos relevantes (ex.: coordenador de programa de pós-graduação, diretor de instituto, etc.)?
+# tags: ['#ATIVIDADES-DE-DIRECAO-E-ADMINISTRACAO']
+#Quantidade de tokens ao todo: 804
+# pergunta: Ele lidera grupos de pesquisa reconhecidos pelo CNPq ou outras instituições?
+# tags: ['#EQUIPE-DO-PROJETO', '#ATIVIDADES-DE-PESQUISA-E-DESENVOLVIMENTO', '#LINHA-DE-PESQUISA']
+#Quantidade de tokens ao todo: 745
+# pergunta: Há evidências de que os resultados das pesquisas do pesquisador geraram impacto social, tecnológico ou econômico?
+# tags: ['#LINHA-DE-PESQUISA', '#PROJETO-DE-PESQUISA', '#ATIVIDADES-DE-PESQUISA-E-DESENVOLVIMENTO']
+#Quantidade de tokens ao todo: 3431
+# pergunta: O pesquisador possui patentes ou outros produtos registrados oriundos de sua pesquisa?
+# tags: ['#REGISTRO-OU-PATENTE', '#PATENTE', '#PRODUTO-TECNOLOGICO']
+#Quantidade de tokens ao todo: 125
+# pergunta: O pesquisador foi convidado como palestrante em eventos científicos de prestígio?
+# tags: ['#ATIVIDADES-DE-ENSINO', '#ATIVIDADES-DE-PESQUISA-E-DESENVOLVIMENTO']
+#Quantidade de tokens ao todo: 12461
+# pergunta: Ele já recebeu prêmios ou reconhecimentos por sua contribuição científica?
+# tags: ['#PREMIOS-TITULOS']
+#Quantidade de tokens ao todo: 1836
+### curriculo: Altigran Soares da Silva.xml
+# pergunta: Qual é a quantidade e a qualidade dos artigos publicados pelo pesquisador em periódicos indexados de alto impacto?
+# tags: ['#ARTIGOS-PUBLICADOS', '#PRODUCAO-BIBLIOGRAFICA']
+#Quantidade de tokens ao todo: 174772
+# pergunta: As publicações estão concentradas em revistas ou conferências de relevância na área de atuação?
+# tags: ['#PRODUCAO-BIBLIOGRAFICA', '#ARTIGOS-PUBLICADOS', '#ARTIGOS-ACEITOS-PARA-PUBLICACAO']
+#Quantidade de tokens ao todo: 174786
+# pergunta: Qual é o número de citações dos artigos do pesquisador em bases como Scopus ou Google Scholar?
+# tags: ['#PRODUCAO-BIBLIOGRAFICA', '#ARTIGOS-PUBLICADOS']
+#Quantidade de tokens ao todo: 174771
+# pergunta: O pesquisador possui índice h (h-index) ou outros indicadores de impacto significativo na sua área?
+# tags: ['#LINHA-DE-PESQUISA', '#PRODUCAO-BIBLIOGRAFICA']
+#Quantidade de tokens ao todo: 138873
+# pergunta: O pesquisador já liderou ou participou como proponente de projetos financiados por agências de fomento?
+# tags: ['#LINHA-DE-PESQUISA', '#PROJETO-DE-PESQUISA', '#FINANCIADORES-DO-PROJETO']
+#Quantidade de tokens ao todo: 1431
+# pergunta: Qual é o histórico do pesquisador em atrair recursos de pesquisa por meio de editais competitivos?
+# tags: ['#LINHA-DE-PESQUISA', '#PROJETO-DE-PESQUISA', '#FINANCIADORES-DO-PROJETO']
+#Quantidade de tokens ao todo: 1430
+# pergunta: Quantos alunos de mestrado, doutorado e iniciação científica o pesquisador já orientou ou está orientando?
+# tags: ['#ORIENTACOES']
+#Quantidade de tokens ao todo: 109
+# pergunta: Qual é a relevância das produções acadêmicas desenvolvidas por seus orientandos, como publicações ou trabalhos apresentados?
+# tags: ['#ORIENTACOES', '#PRODUCAO-BIBLIOGRAFICA', '#ARTIGOS-PUBLICADOS']
+#Quantidade de tokens ao todo: 174783
+# pergunta: O pesquisador contribui para a formação de alunos na graduação por meio de atividades como orientação de TCC ou projetos de pesquisa?
+# tags: ['#ORIENTACOES', '#PROJETO-DE-PESQUISA', '#ATIVIDADES-DE-ENSINO']
+#Quantidade de tokens ao todo: 1584
+# pergunta: Qual é o impacto das orientações na carreira acadêmica ou profissional dos alunos formados?
+# tags: ['#ORIENTACOES', '#ATIVIDADES-DE-ENSINO', '#FORMACAO-ACADEMICA-TITULACAO']
+#Quantidade de tokens ao todo: 2767
+# pergunta: O pesquisador participa de redes de colaboração nacionais ou  internacionais relevantes?
+# tags: ['#LINHA-DE-PESQUISA', '#PROJETO-DE-PESQUISA']
+#Quantidade de tokens ao todo: 1334
+# pergunta: Existem evidências de coautorias ou projetos conjuntos com outros pesquisadores de destaque?
+# tags: ['#LINHA-DE-PESQUISA', '#PROJETO-DE-PESQUISA', '#INTEGRANTES-DO-PROJETO']
+#Quantidade de tokens ao todo: 1673
+# pergunta: O pesquisador já ocupou cargos administrativos relevantes (ex.: coordenador de programa de pós-graduação, diretor de instituto, etc.)?
+# tags: ['#ATIVIDADES-DE-DIRECAO-E-ADMINISTRACAO']
+#Quantidade de tokens ao todo: 796
+# pergunta: Ele lidera grupos de pesquisa reconhecidos pelo CNPq ou outras instituições?
+# tags: ['#EQUIPE-DO-PROJETO', '#ATIVIDADES-DE-PESQUISA-E-DESENVOLVIMENTO', '#LINHA-DE-PESQUISA']
+#Quantidade de tokens ao todo: 1232
+# pergunta: Há evidências de que os resultados das pesquisas do pesquisador geraram impacto social, tecnológico ou econômico?
+# tags: ['#LINHA-DE-PESQUISA', '#PROJETO-DE-PESQUISA', '#ATIVIDADES-DE-PESQUISA-E-DESENVOLVIMENTO']
+#Quantidade de tokens ao todo: 1808
+# pergunta: O pesquisador possui patentes ou outros produtos registrados oriundos de sua pesquisa?
+# tags: ['#REGISTRO-OU-PATENTE', '#PATENTE', '#PRODUTO-TECNOLOGICO']
+#Quantidade de tokens ao todo: 125
+# pergunta: O pesquisador foi convidado como palestrante em eventos científicos de prestígio?
+# tags: ['#ATIVIDADES-DE-ENSINO', '#ATIVIDADES-DE-PESQUISA-E-DESENVOLVIMENTO']
+#Quantidade de tokens ao todo: 1116
+# pergunta: Ele já recebeu prêmios ou reconhecimentos por sua contribuição científica?
+# tags: ['#PREMIOS-TITULOS']
+#Quantidade de tokens ao todo: 1955
+### curriculo: Alírio Santos de Sá.xml
+# pergunta: Qual é a quantidade e a qualidade dos artigos publicados pelo pesquisador em periódicos indexados de alto impacto?
+# tags: ['#ARTIGOS-PUBLICADOS', '#PRODUCAO-BIBLIOGRAFICA']
+#Quantidade de tokens ao todo: 42344
+# pergunta: As publicações estão concentradas em revistas ou conferências de relevância na área de atuação?
+# tags: ['#PRODUCAO-BIBLIOGRAFICA', '#ARTIGOS-PUBLICADOS', '#ARTIGOS-ACEITOS-PARA-PUBLICACAO']
+#Quantidade de tokens ao todo: 42358
+# pergunta: Qual é o número de citações dos artigos do pesquisador em bases como Scopus ou Google Scholar?
+# tags: ['#PRODUCAO-BIBLIOGRAFICA', '#ARTIGOS-PUBLICADOS']
+#Quantidade de tokens ao todo: 42343
+# pergunta: O pesquisador possui índice h (h-index) ou outros indicadores de impacto significativo na sua área?
+# tags: ['#LINHA-DE-PESQUISA', '#PRODUCAO-BIBLIOGRAFICA']
+#Quantidade de tokens ao todo: 39366
+# pergunta: O pesquisador já liderou ou participou como proponente de projetos financiados por agências de fomento?
+# tags: ['#LINHA-DE-PESQUISA', '#PROJETO-DE-PESQUISA', '#FINANCIADORES-DO-PROJETO']
+#Quantidade de tokens ao todo: 1485
+# pergunta: Qual é o histórico do pesquisador em atrair recursos de pesquisa por meio de editais competitivos?
+# tags: ['#LINHA-DE-PESQUISA', '#PROJETO-DE-PESQUISA', '#FINANCIADORES-DO-PROJETO']
+#Quantidade de tokens ao todo: 1484
+# pergunta: Quantos alunos de mestrado, doutorado e iniciação científica o pesquisador já orientou ou está orientando?
+# tags: ['#ORIENTACOES']
+#Quantidade de tokens ao todo: 202
+# pergunta: Qual é a relevância das produções acadêmicas desenvolvidas por seus orientandos, como publicações ou trabalhos apresentados?
+# tags: ['#ORIENTACOES', '#PRODUCAO-BIBLIOGRAFICA', '#ARTIGOS-PUBLICADOS']
+#Quantidade de tokens ao todo: 42448
+# pergunta: O pesquisador contribui para a formação de alunos na graduação por meio de atividades como orientação de TCC ou projetos de pesquisa?
+# tags: ['#ORIENTACOES', '#PROJETO-DE-PESQUISA', '#ATIVIDADES-DE-ENSINO']
+#Quantidade de tokens ao todo: 3712
+# pergunta: Qual é o impacto das orientações na carreira acadêmica ou profissional dos alunos formados?
+# tags: ['#ORIENTACOES', '#ATIVIDADES-DE-ENSINO', '#FORMACAO-ACADEMICA-TITULACAO']
+#Quantidade de tokens ao todo: 5109
+# pergunta: O pesquisador participa de redes de colaboração nacionais ou  internacionais relevantes?
+# tags: ['#LINHA-DE-PESQUISA', '#PROJETO-DE-PESQUISA']
+#Quantidade de tokens ao todo: 1391
+# pergunta: Existem evidências de coautorias ou projetos conjuntos com outros pesquisadores de destaque?
+# tags: ['#LINHA-DE-PESQUISA', '#PROJETO-DE-PESQUISA', '#INTEGRANTES-DO-PROJETO']
+#Quantidade de tokens ao todo: 2039
+# pergunta: O pesquisador já ocupou cargos administrativos relevantes (ex.: coordenador de programa de pós-graduação, diretor de instituto, etc.)?
+# tags: ['#ATIVIDADES-DE-DIRECAO-E-ADMINISTRACAO']
+#Quantidade de tokens ao todo: 1147
+# pergunta: Ele lidera grupos de pesquisa reconhecidos pelo CNPq ou outras instituições?
+# tags: ['#EQUIPE-DO-PROJETO', '#ATIVIDADES-DE-PESQUISA-E-DESENVOLVIMENTO', '#LINHA-DE-PESQUISA']
+#Quantidade de tokens ao todo: 2078
+# pergunta: Há evidências de que os resultados das pesquisas do pesquisador geraram impacto social, tecnológico ou econômico?
+# tags: ['#LINHA-DE-PESQUISA', '#PROJETO-DE-PESQUISA', '#ATIVIDADES-DE-PESQUISA-E-DESENVOLVIMENTO']
+#Quantidade de tokens ao todo: 2506
+# pergunta: O pesquisador possui patentes ou outros produtos registrados oriundos de sua pesquisa?
+# tags: ['#REGISTRO-OU-PATENTE', '#PATENTE', '#PRODUTO-TECNOLOGICO']
+#Quantidade de tokens ao todo: 125
+# pergunta: O pesquisador foi convidado como palestrante em eventos científicos de prestígio?
+# tags: ['#ATIVIDADES-DE-ENSINO', '#ATIVIDADES-DE-PESQUISA-E-DESENVOLVIMENTO']
+#Quantidade de tokens ao todo: 3631
+# pergunta: Ele já recebeu prêmios ou reconhecimentos por sua contribuição científica?
+# tags: ['#PREMIOS-TITULOS']
+#Quantidade de tokens ao todo: 368
+### curriculo: André Carlos Ponce de Leon Ferreira de Carvalho.xml
+# pergunta: Qual é a quantidade e a qualidade dos artigos publicados pelo pesquisador em periódicos indexados de alto impacto?
+# tags: ['#ARTIGOS-PUBLICADOS', '#PRODUCAO-BIBLIOGRAFICA']
+#Quantidade de tokens ao todo: 815052
+# pergunta: As publicações estão concentradas em revistas ou conferências de relevância na área de atuação?
+# tags: ['#PRODUCAO-BIBLIOGRAFICA', '#ARTIGOS-PUBLICADOS', '#ARTIGOS-ACEITOS-PARA-PUBLICACAO']
+#Quantidade de tokens ao todo: 817690
+# pergunta: Qual é o número de citações dos artigos do pesquisador em bases como Scopus ou Google Scholar?
+# tags: ['#PRODUCAO-BIBLIOGRAFICA', '#ARTIGOS-PUBLICADOS']
+#Quantidade de tokens ao todo: 815051
+# pergunta: O pesquisador possui índice h (h-index) ou outros indicadores de impacto significativo na sua área?
+# tags: ['#LINHA-DE-PESQUISA', '#PRODUCAO-BIBLIOGRAFICA']
+#Quantidade de tokens ao todo: 628409
+# pergunta: O pesquisador já liderou ou participou como proponente de projetos financiados por agências de fomento?
+# tags: ['#LINHA-DE-PESQUISA', '#PROJETO-DE-PESQUISA', '#FINANCIADORES-DO-PROJETO']
+#Quantidade de tokens ao todo: 3877
+# pergunta: Qual é o histórico do pesquisador em atrair recursos de pesquisa por meio de editais competitivos?
+# tags: ['#LINHA-DE-PESQUISA', '#PROJETO-DE-PESQUISA', '#FINANCIADORES-DO-PROJETO']
+#Quantidade de tokens ao todo: 3876
+# pergunta: Quantos alunos de mestrado, doutorado e iniciação científica o pesquisador já orientou ou está orientando?
+# tags: ['#ORIENTACOES']
+#Quantidade de tokens ao todo: 109
+# pergunta: Qual é a relevância das produções acadêmicas desenvolvidas por seus orientandos, como publicações ou trabalhos apresentados?
+# tags: ['#ORIENTACOES', '#PRODUCAO-BIBLIOGRAFICA', '#ARTIGOS-PUBLICADOS']
+#Quantidade de tokens ao todo: 815063
+# pergunta: O pesquisador contribui para a formação de alunos na graduação por meio de atividades como orientação de TCC ou projetos de pesquisa?
+# tags: ['#ORIENTACOES', '#PROJETO-DE-PESQUISA', '#ATIVIDADES-DE-ENSINO']
+#Quantidade de tokens ao todo: 4549
+# pergunta: Qual é o impacto das orientações na carreira acadêmica ou profissional dos alunos formados?
+# tags: ['#ORIENTACOES', '#ATIVIDADES-DE-ENSINO', '#FORMACAO-ACADEMICA-TITULACAO']
+#Quantidade de tokens ao todo: 4101
+# pergunta: O pesquisador participa de redes de colaboração nacionais ou  internacionais relevantes?
+# tags: ['#LINHA-DE-PESQUISA', '#PROJETO-DE-PESQUISA']
+#Quantidade de tokens ao todo: 3779
+# pergunta: Existem evidências de coautorias ou projetos conjuntos com outros pesquisadores de destaque?
+# tags: ['#LINHA-DE-PESQUISA', '#PROJETO-DE-PESQUISA', '#INTEGRANTES-DO-PROJETO']
+#Quantidade de tokens ao todo: 5095
+# pergunta: O pesquisador já ocupou cargos administrativos relevantes (ex.: coordenador de programa de pós-graduação, diretor de instituto, etc.)?
+# tags: ['#ATIVIDADES-DE-DIRECAO-E-ADMINISTRACAO']
+#Quantidade de tokens ao todo: 1081
+# pergunta: Ele lidera grupos de pesquisa reconhecidos pelo CNPq ou outras instituições?
+# tags: ['#EQUIPE-DO-PROJETO', '#ATIVIDADES-DE-PESQUISA-E-DESENVOLVIMENTO', '#LINHA-DE-PESQUISA']
+#Quantidade de tokens ao todo: 1777
+# pergunta: Há evidências de que os resultados das pesquisas do pesquisador geraram impacto social, tecnológico ou econômico?
+# tags: ['#LINHA-DE-PESQUISA', '#PROJETO-DE-PESQUISA', '#ATIVIDADES-DE-PESQUISA-E-DESENVOLVIMENTO']
+#Quantidade de tokens ao todo: 4036
+# pergunta: O pesquisador possui patentes ou outros produtos registrados oriundos de sua pesquisa?
+# tags: ['#REGISTRO-OU-PATENTE', '#PATENTE', '#PRODUTO-TECNOLOGICO']
+#Quantidade de tokens ao todo: 2930
+# pergunta: O pesquisador foi convidado como palestrante em eventos científicos de prestígio?
+# tags: ['#ATIVIDADES-DE-ENSINO', '#ATIVIDADES-DE-PESQUISA-E-DESENVOLVIMENTO']
+#Quantidade de tokens ao todo: 1205
+# pergunta: Ele já recebeu prêmios ou reconhecimentos por sua contribuição científica?
+# tags: ['#PREMIOS-TITULOS']
+#Quantidade de tokens ao todo: 6824
+### curriculo: Avelino Francisco Zorzo.xml
+# pergunta: Qual é a quantidade e a qualidade dos artigos publicados pelo pesquisador em periódicos indexados de alto impacto?
+# tags: ['#ARTIGOS-PUBLICADOS', '#PRODUCAO-BIBLIOGRAFICA']
+#Quantidade de tokens ao todo: 164234
+# pergunta: As publicações estão concentradas em revistas ou conferências de relevância na área de atuação?
+# tags: ['#PRODUCAO-BIBLIOGRAFICA', '#ARTIGOS-PUBLICADOS', '#ARTIGOS-ACEITOS-PARA-PUBLICACAO']
+#Quantidade de tokens ao todo: 164787
+# pergunta: Qual é o número de citações dos artigos do pesquisador em bases como Scopus ou Google Scholar?
+# tags: ['#PRODUCAO-BIBLIOGRAFICA', '#ARTIGOS-PUBLICADOS']
+#Quantidade de tokens ao todo: 164232
+# pergunta: O pesquisador possui índice h (h-index) ou outros indicadores de impacto significativo na sua área?
+# tags: ['#LINHA-DE-PESQUISA', '#PRODUCAO-BIBLIOGRAFICA']
+#Quantidade de tokens ao todo: 140309
+# pergunta: O pesquisador já liderou ou participou como proponente de projetos financiados por agências de fomento?
+# tags: ['#LINHA-DE-PESQUISA', '#PROJETO-DE-PESQUISA', '#FINANCIADORES-DO-PROJETO']
+#Quantidade de tokens ao todo: 2507
+# pergunta: Qual é o histórico do pesquisador em atrair recursos de pesquisa por meio de editais competitivos?
+# tags: ['#LINHA-DE-PESQUISA', '#PROJETO-DE-PESQUISA', '#FINANCIADORES-DO-PROJETO']
+#Quantidade de tokens ao todo: 2506
+# pergunta: Quantos alunos de mestrado, doutorado e iniciação científica o pesquisador já orientou ou está orientando?
+# tags: ['#ORIENTACOES']
+#Quantidade de tokens ao todo: 109
+# pergunta: Qual é a relevância das produções acadêmicas desenvolvidas por seus orientandos, como publicações ou trabalhos apresentados?
+# tags: ['#ORIENTACOES', '#PRODUCAO-BIBLIOGRAFICA', '#ARTIGOS-PUBLICADOS']
+#Quantidade de tokens ao todo: 164244
+# pergunta: O pesquisador contribui para a formação de alunos na graduação por meio de atividades como orientação de TCC ou projetos de pesquisa?
+# tags: ['#ORIENTACOES', '#PROJETO-DE-PESQUISA', '#ATIVIDADES-DE-ENSINO']
+#Quantidade de tokens ao todo: 3819
+# pergunta: Qual é o impacto das orientações na carreira acadêmica ou profissional dos alunos formados?
+# tags: ['#ORIENTACOES', '#ATIVIDADES-DE-ENSINO', '#FORMACAO-ACADEMICA-TITULACAO']
+#Quantidade de tokens ao todo: 4361
+# pergunta: O pesquisador participa de redes de colaboração nacionais ou  internacionais relevantes?
+# tags: ['#LINHA-DE-PESQUISA', '#PROJETO-DE-PESQUISA']
+#Quantidade de tokens ao todo: 2353
+# pergunta: Existem evidências de coautorias ou projetos conjuntos com outros pesquisadores de destaque?
+# tags: ['#LINHA-DE-PESQUISA', '#PROJETO-DE-PESQUISA', '#INTEGRANTES-DO-PROJETO']
+#Quantidade de tokens ao todo: 2704
+# pergunta: O pesquisador já ocupou cargos administrativos relevantes (ex.: coordenador de programa de pós-graduação, diretor de instituto, etc.)?
+# tags: ['#ATIVIDADES-DE-DIRECAO-E-ADMINISTRACAO']
+#Quantidade de tokens ao todo: 1449
+# pergunta: Ele lidera grupos de pesquisa reconhecidos pelo CNPq ou outras instituições?
+# tags: ['#EQUIPE-DO-PROJETO', '#ATIVIDADES-DE-PESQUISA-E-DESENVOLVIMENTO', '#LINHA-DE-PESQUISA']
+#Quantidade de tokens ao todo: 1224
+# pergunta: Há evidências de que os resultados das pesquisas do pesquisador geraram impacto social, tecnológico ou econômico?
+# tags: ['#LINHA-DE-PESQUISA', '#PROJETO-DE-PESQUISA', '#ATIVIDADES-DE-PESQUISA-E-DESENVOLVIMENTO']
+#Quantidade de tokens ao todo: 2818
+# pergunta: O pesquisador possui patentes ou outros produtos registrados oriundos de sua pesquisa?
+# tags: ['#REGISTRO-OU-PATENTE', '#PATENTE', '#PRODUTO-TECNOLOGICO']
+#Quantidade de tokens ao todo: 349
+# pergunta: O pesquisador foi convidado como palestrante em eventos científicos de prestígio?
+# tags: ['#ATIVIDADES-DE-ENSINO', '#ATIVIDADES-DE-PESQUISA-E-DESENVOLVIMENTO']
+#Quantidade de tokens ao todo: 2312
+# pergunta: Ele já recebeu prêmios ou reconhecimentos por sua contribuição científica?
+# tags: ['#PREMIOS-TITULOS']
+#Quantidade de tokens ao todo: 1963
+### curriculo: Carla Maria dal Sasso Freitas.xml
+# pergunta: Qual é a quantidade e a qualidade dos artigos publicados pelo pesquisador em periódicos indexados de alto impacto?
+# tags: ['#ARTIGOS-PUBLICADOS', '#PRODUCAO-BIBLIOGRAFICA']
+#Quantidade de tokens ao todo: 242614
+# pergunta: As publicações estão concentradas em revistas ou conferências de relevância na área de atuação?
+# tags: ['#PRODUCAO-BIBLIOGRAFICA', '#ARTIGOS-PUBLICADOS', '#ARTIGOS-ACEITOS-PARA-PUBLICACAO']
+#Quantidade de tokens ao todo: 242628
+# pergunta: Qual é o número de citações dos artigos do pesquisador em bases como Scopus ou Google Scholar?
+# tags: ['#PRODUCAO-BIBLIOGRAFICA', '#ARTIGOS-PUBLICADOS']
+#Quantidade de tokens ao todo: 242613
+# pergunta: O pesquisador possui índice h (h-index) ou outros indicadores de impacto significativo na sua área?
+# tags: ['#LINHA-DE-PESQUISA', '#PRODUCAO-BIBLIOGRAFICA']
+#Quantidade de tokens ao todo: 214058
+# pergunta: O pesquisador já liderou ou participou como proponente de projetos financiados por agências de fomento?
+# tags: ['#LINHA-DE-PESQUISA', '#PROJETO-DE-PESQUISA', '#FINANCIADORES-DO-PROJETO']
+#Quantidade de tokens ao todo: 5662
+# pergunta: Qual é o histórico do pesquisador em atrair recursos de pesquisa por meio de editais competitivos?
+# tags: ['#LINHA-DE-PESQUISA', '#PROJETO-DE-PESQUISA', '#FINANCIADORES-DO-PROJETO']
+#Quantidade de tokens ao todo: 5661
+# pergunta: Quantos alunos de mestrado, doutorado e iniciação científica o pesquisador já orientou ou está orientando?
+# tags: ['#ORIENTACOES']
+#Quantidade de tokens ao todo: 109
+# pergunta: Qual é a relevância das produções acadêmicas desenvolvidas por seus orientandos, como publicações ou trabalhos apresentados?
+# tags: ['#ORIENTACOES', '#PRODUCAO-BIBLIOGRAFICA', '#ARTIGOS-PUBLICADOS']
+#Quantidade de tokens ao todo: 242625
+# pergunta: O pesquisador contribui para a formação de alunos na graduação por meio de atividades como orientação de TCC ou projetos de pesquisa?
+# tags: ['#ORIENTACOES', '#PROJETO-DE-PESQUISA', '#ATIVIDADES-DE-ENSINO']
+#Quantidade de tokens ao todo: 8916
+# pergunta: Qual é o impacto das orientações na carreira acadêmica ou profissional dos alunos formados?
+# tags: ['#ORIENTACOES', '#ATIVIDADES-DE-ENSINO', '#FORMACAO-ACADEMICA-TITULACAO']
+#Quantidade de tokens ao todo: 5978
+# pergunta: O pesquisador participa de redes de colaboração nacionais ou  internacionais relevantes?
+# tags: ['#LINHA-DE-PESQUISA', '#PROJETO-DE-PESQUISA']
+#Quantidade de tokens ao todo: 5565
+# pergunta: Existem evidências de coautorias ou projetos conjuntos com outros pesquisadores de destaque?
+# tags: ['#LINHA-DE-PESQUISA', '#PROJETO-DE-PESQUISA', '#INTEGRANTES-DO-PROJETO']
+#Quantidade de tokens ao todo: 6594
+# pergunta: O pesquisador já ocupou cargos administrativos relevantes (ex.: coordenador de programa de pós-graduação, diretor de instituto, etc.)?
+# tags: ['#ATIVIDADES-DE-DIRECAO-E-ADMINISTRACAO']
+#Quantidade de tokens ao todo: 5176
+# pergunta: Ele lidera grupos de pesquisa reconhecidos pelo CNPq ou outras instituições?
+# tags: ['#EQUIPE-DO-PROJETO', '#ATIVIDADES-DE-PESQUISA-E-DESENVOLVIMENTO', '#LINHA-DE-PESQUISA']
+#Quantidade de tokens ao todo: 2051
+# pergunta: Há evidências de que os resultados das pesquisas do pesquisador geraram impacto social, tecnológico ou econômico?
+# tags: ['#LINHA-DE-PESQUISA', '#PROJETO-DE-PESQUISA', '#ATIVIDADES-DE-PESQUISA-E-DESENVOLVIMENTO']
+#Quantidade de tokens ao todo: 6103
+# pergunta: O pesquisador possui patentes ou outros produtos registrados oriundos de sua pesquisa?
+# tags: ['#REGISTRO-OU-PATENTE', '#PATENTE', '#PRODUTO-TECNOLOGICO']
+#Quantidade de tokens ao todo: 125
+# pergunta: O pesquisador foi convidado como palestrante em eventos científicos de prestígio?
+# tags: ['#ATIVIDADES-DE-ENSINO', '#ATIVIDADES-DE-PESQUISA-E-DESENVOLVIMENTO']
+#Quantidade de tokens ao todo: 4346
+# pergunta: Ele já recebeu prêmios ou reconhecimentos por sua contribuição científica?
+# tags: ['#PREMIOS-TITULOS']
+#Quantidade de tokens ao todo: 1695
+### curriculo: Carlos André Guimarães Ferraz.xml
+# pergunta: Qual é a quantidade e a qualidade dos artigos publicados pelo pesquisador em periódicos indexados de alto impacto?
+# tags: ['#ARTIGOS-PUBLICADOS', '#PRODUCAO-BIBLIOGRAFICA']
+#Quantidade de tokens ao todo: 120738
+# pergunta: As publicações estão concentradas em revistas ou conferências de relevância na área de atuação?
+# tags: ['#PRODUCAO-BIBLIOGRAFICA', '#ARTIGOS-PUBLICADOS', '#ARTIGOS-ACEITOS-PARA-PUBLICACAO']
+#Quantidade de tokens ao todo: 120751
+# pergunta: Qual é o número de citações dos artigos do pesquisador em bases como Scopus ou Google Scholar?
+# tags: ['#PRODUCAO-BIBLIOGRAFICA', '#ARTIGOS-PUBLICADOS']
+#Quantidade de tokens ao todo: 120736
+# pergunta: O pesquisador possui índice h (h-index) ou outros indicadores de impacto significativo na sua área?
+# tags: ['#LINHA-DE-PESQUISA', '#PRODUCAO-BIBLIOGRAFICA']
+#Quantidade de tokens ao todo: 112936
+# pergunta: O pesquisador já liderou ou participou como proponente de projetos financiados por agências de fomento?
+# tags: ['#LINHA-DE-PESQUISA', '#PROJETO-DE-PESQUISA', '#FINANCIADORES-DO-PROJETO']
+#Quantidade de tokens ao todo: 2365
+# pergunta: Qual é o histórico do pesquisador em atrair recursos de pesquisa por meio de editais competitivos?
+# tags: ['#LINHA-DE-PESQUISA', '#PROJETO-DE-PESQUISA', '#FINANCIADORES-DO-PROJETO']
+#Quantidade de tokens ao todo: 2364
+# pergunta: Quantos alunos de mestrado, doutorado e iniciação científica o pesquisador já orientou ou está orientando?
+# tags: ['#ORIENTACOES']
+#Quantidade de tokens ao todo: 173
+# pergunta: Qual é a relevância das produções acadêmicas desenvolvidas por seus orientandos, como publicações ou trabalhos apresentados?
+# tags: ['#ORIENTACOES', '#PRODUCAO-BIBLIOGRAFICA', '#ARTIGOS-PUBLICADOS']
+#Quantidade de tokens ao todo: 120812
+# pergunta: O pesquisador contribui para a formação de alunos na graduação por meio de atividades como orientação de TCC ou projetos de pesquisa?
+# tags: ['#ORIENTACOES', '#PROJETO-DE-PESQUISA', '#ATIVIDADES-DE-ENSINO']
+#Quantidade de tokens ao todo: 3113
+# pergunta: Qual é o impacto das orientações na carreira acadêmica ou profissional dos alunos formados?
+# tags: ['#ORIENTACOES', '#ATIVIDADES-DE-ENSINO', '#FORMACAO-ACADEMICA-TITULACAO']
+#Quantidade de tokens ao todo: 3893
+# pergunta: O pesquisador participa de redes de colaboração nacionais ou  internacionais relevantes?
+# tags: ['#LINHA-DE-PESQUISA', '#PROJETO-DE-PESQUISA']
+#Quantidade de tokens ao todo: 2041
+# pergunta: Existem evidências de coautorias ou projetos conjuntos com outros pesquisadores de destaque?
+# tags: ['#LINHA-DE-PESQUISA', '#PROJETO-DE-PESQUISA', '#INTEGRANTES-DO-PROJETO']
+#Quantidade de tokens ao todo: 2771
+# pergunta: O pesquisador já ocupou cargos administrativos relevantes (ex.: coordenador de programa de pós-graduação, diretor de instituto, etc.)?
+# tags: ['#ATIVIDADES-DE-DIRECAO-E-ADMINISTRACAO']
+#Quantidade de tokens ao todo: 460
+# pergunta: Ele lidera grupos de pesquisa reconhecidos pelo CNPq ou outras instituições?
+# tags: ['#EQUIPE-DO-PROJETO', '#ATIVIDADES-DE-PESQUISA-E-DESENVOLVIMENTO', '#LINHA-DE-PESQUISA']
+#Quantidade de tokens ao todo: 1599
+# pergunta: Há evidências de que os resultados das pesquisas do pesquisador geraram impacto social, tecnológico ou econômico?
+# tags: ['#LINHA-DE-PESQUISA', '#PROJETO-DE-PESQUISA', '#ATIVIDADES-DE-PESQUISA-E-DESENVOLVIMENTO']
+#Quantidade de tokens ao todo: 2496
+# pergunta: O pesquisador possui patentes ou outros produtos registrados oriundos de sua pesquisa?
+# tags: ['#REGISTRO-OU-PATENTE', '#PATENTE', '#PRODUTO-TECNOLOGICO']
+#Quantidade de tokens ao todo: 3509
+# pergunta: O pesquisador foi convidado como palestrante em eventos científicos de prestígio?
+# tags: ['#ATIVIDADES-DE-ENSINO', '#ATIVIDADES-DE-PESQUISA-E-DESENVOLVIMENTO']
+#Quantidade de tokens ao todo: 1850
+# pergunta: Ele já recebeu prêmios ou reconhecimentos por sua contribuição científica?
+# tags: ['#PREMIOS-TITULOS']
+#Quantidade de tokens ao todo: 533
+### curriculo: Cristiano Maciel.xml
+# pergunta: Qual é a quantidade e a qualidade dos artigos publicados pelo pesquisador em periódicos indexados de alto impacto?
+# tags: ['#ARTIGOS-PUBLICADOS', '#PRODUCAO-BIBLIOGRAFICA']
+#Quantidade de tokens ao todo: 2245
+# pergunta: As publicações estão concentradas em revistas ou conferências de relevância na área de atuação?
+# tags: ['#PRODUCAO-BIBLIOGRAFICA', '#ARTIGOS-PUBLICADOS', '#ARTIGOS-ACEITOS-PARA-PUBLICACAO']
+#Quantidade de tokens ao todo: 2259
+# pergunta: Qual é o número de citações dos artigos do pesquisador em bases como Scopus ou Google Scholar?
+# tags: ['#PRODUCAO-BIBLIOGRAFICA', '#ARTIGOS-PUBLICADOS']
+#Quantidade de tokens ao todo: 2244
+# pergunta: O pesquisador possui índice h (h-index) ou outros indicadores de impacto significativo na sua área?
+# tags: ['#LINHA-DE-PESQUISA', '#PRODUCAO-BIBLIOGRAFICA']
+#Quantidade de tokens ao todo: 2866
+# pergunta: O pesquisador já liderou ou participou como proponente de projetos financiados por agências de fomento?
+# tags: ['#LINHA-DE-PESQUISA', '#PROJETO-DE-PESQUISA', '#FINANCIADORES-DO-PROJETO']
+#Quantidade de tokens ao todo: 1703
+# pergunta: Qual é o histórico do pesquisador em atrair recursos de pesquisa por meio de editais competitivos?
+# tags: ['#LINHA-DE-PESQUISA', '#PROJETO-DE-PESQUISA', '#FINANCIADORES-DO-PROJETO']
+#Quantidade de tokens ao todo: 1702
+# pergunta: Quantos alunos de mestrado, doutorado e iniciação científica o pesquisador já orientou ou está orientando?
+# tags: ['#ORIENTACOES']
+#Quantidade de tokens ao todo: 109
+# pergunta: Qual é a relevância das produções acadêmicas desenvolvidas por seus orientandos, como publicações ou trabalhos apresentados?
+# tags: ['#ORIENTACOES', '#PRODUCAO-BIBLIOGRAFICA', '#ARTIGOS-PUBLICADOS']
+#Quantidade de tokens ao todo: 2256
+# pergunta: O pesquisador contribui para a formação de alunos na graduação por meio de atividades como orientação de TCC ou projetos de pesquisa?
+# tags: ['#ORIENTACOES', '#PROJETO-DE-PESQUISA', '#ATIVIDADES-DE-ENSINO']
+#Quantidade de tokens ao todo: 1006
+# pergunta: Qual é o impacto das orientações na carreira acadêmica ou profissional dos alunos formados?
+# tags: ['#ORIENTACOES', '#ATIVIDADES-DE-ENSINO', '#FORMACAO-ACADEMICA-TITULACAO']
+#Quantidade de tokens ao todo: 1447
+# pergunta: O pesquisador participa de redes de colaboração nacionais ou  internacionais relevantes?
+# tags: ['#LINHA-DE-PESQUISA', '#PROJETO-DE-PESQUISA']
+#Quantidade de tokens ao todo: 1608
+# pergunta: Existem evidências de coautorias ou projetos conjuntos com outros pesquisadores de destaque?
+# tags: ['#LINHA-DE-PESQUISA', '#PROJETO-DE-PESQUISA', '#INTEGRANTES-DO-PROJETO']
+#Quantidade de tokens ao todo: 1834
+# pergunta: O pesquisador já ocupou cargos administrativos relevantes (ex.: coordenador de programa de pós-graduação, diretor de instituto, etc.)?
+# tags: ['#ATIVIDADES-DE-DIRECAO-E-ADMINISTRACAO']
+#Quantidade de tokens ao todo: 123
+# pergunta: Ele lidera grupos de pesquisa reconhecidos pelo CNPq ou outras instituições?
+# tags: ['#EQUIPE-DO-PROJETO', '#ATIVIDADES-DE-PESQUISA-E-DESENVOLVIMENTO', '#LINHA-DE-PESQUISA']
+#Quantidade de tokens ao todo: 1734
+# pergunta: Há evidências de que os resultados das pesquisas do pesquisador geraram impacto social, tecnológico ou econômico?
+# tags: ['#LINHA-DE-PESQUISA', '#PROJETO-DE-PESQUISA', '#ATIVIDADES-DE-PESQUISA-E-DESENVOLVIMENTO']
+#Quantidade de tokens ao todo: 2387
+# pergunta: O pesquisador possui patentes ou outros produtos registrados oriundos de sua pesquisa?
+# tags: ['#REGISTRO-OU-PATENTE', '#PATENTE', '#PRODUTO-TECNOLOGICO']
+#Quantidade de tokens ao todo: 125
+# pergunta: O pesquisador foi convidado como palestrante em eventos científicos de prestígio?
+# tags: ['#ATIVIDADES-DE-ENSINO', '#ATIVIDADES-DE-PESQUISA-E-DESENVOLVIMENTO']
+#Quantidade de tokens ao todo: 879
+# pergunta: Ele já recebeu prêmios ou reconhecimentos por sua contribuição científica?
+# tags: ['#PREMIOS-TITULOS']
+#Quantidade de tokens ao todo: 101
+### curriculo: Débora Christina Muchaluat Saade.xml
+# pergunta: Qual é a quantidade e a qualidade dos artigos publicados pelo pesquisador em periódicos indexados de alto impacto?
+# tags: ['#ARTIGOS-PUBLICADOS', '#PRODUCAO-BIBLIOGRAFICA']
+#Quantidade de tokens ao todo: 237519
+# pergunta: As publicações estão concentradas em revistas ou conferências de relevância na área de atuação?
+# tags: ['#PRODUCAO-BIBLIOGRAFICA', '#ARTIGOS-PUBLICADOS', '#ARTIGOS-ACEITOS-PARA-PUBLICACAO']
+#Quantidade de tokens ao todo: 237532
+# pergunta: Qual é o número de citações dos artigos do pesquisador em bases como Scopus ou Google Scholar?
+# tags: ['#PRODUCAO-BIBLIOGRAFICA', '#ARTIGOS-PUBLICADOS']
+#Quantidade de tokens ao todo: 237517
+# pergunta: O pesquisador possui índice h (h-index) ou outros indicadores de impacto significativo na sua área?
+# tags: ['#LINHA-DE-PESQUISA', '#PRODUCAO-BIBLIOGRAFICA']
+#Quantidade de tokens ao todo: 203454
+# pergunta: O pesquisador já liderou ou participou como proponente de projetos financiados por agências de fomento?
+# tags: ['#LINHA-DE-PESQUISA', '#PROJETO-DE-PESQUISA', '#FINANCIADORES-DO-PROJETO']
+#Quantidade de tokens ao todo: 2259
+# pergunta: Qual é o histórico do pesquisador em atrair recursos de pesquisa por meio de editais competitivos?
+# tags: ['#LINHA-DE-PESQUISA', '#PROJETO-DE-PESQUISA', '#FINANCIADORES-DO-PROJETO']
+#Quantidade de tokens ao todo: 2258
+# pergunta: Quantos alunos de mestrado, doutorado e iniciação científica o pesquisador já orientou ou está orientando?
+# tags: ['#ORIENTACOES']
+#Quantidade de tokens ao todo: 109
+# pergunta: Qual é a relevância das produções acadêmicas desenvolvidas por seus orientandos, como publicações ou trabalhos apresentados?
+# tags: ['#ORIENTACOES', '#PRODUCAO-BIBLIOGRAFICA', '#ARTIGOS-PUBLICADOS']
+#Quantidade de tokens ao todo: 237529
+# pergunta: O pesquisador contribui para a formação de alunos na graduação por meio de atividades como orientação de TCC ou projetos de pesquisa?
+# tags: ['#ORIENTACOES', '#PROJETO-DE-PESQUISA', '#ATIVIDADES-DE-ENSINO']
+#Quantidade de tokens ao todo: 2913
+# pergunta: Qual é o impacto das orientações na carreira acadêmica ou profissional dos alunos formados?
+# tags: ['#ORIENTACOES', '#ATIVIDADES-DE-ENSINO', '#FORMACAO-ACADEMICA-TITULACAO']
+#Quantidade de tokens ao todo: 3377
+# pergunta: O pesquisador participa de redes de colaboração nacionais ou  internacionais relevantes?
+# tags: ['#LINHA-DE-PESQUISA', '#PROJETO-DE-PESQUISA']
+#Quantidade de tokens ao todo: 2100
+# pergunta: Existem evidências de coautorias ou projetos conjuntos com outros pesquisadores de destaque?
+# tags: ['#LINHA-DE-PESQUISA', '#PROJETO-DE-PESQUISA', '#INTEGRANTES-DO-PROJETO']
+#Quantidade de tokens ao todo: 2772
+# pergunta: O pesquisador já ocupou cargos administrativos relevantes (ex.: coordenador de programa de pós-graduação, diretor de instituto, etc.)?
+# tags: ['#ATIVIDADES-DE-DIRECAO-E-ADMINISTRACAO']
+#Quantidade de tokens ao todo: 462
+# pergunta: Ele lidera grupos de pesquisa reconhecidos pelo CNPq ou outras instituições?
+# tags: ['#EQUIPE-DO-PROJETO', '#ATIVIDADES-DE-PESQUISA-E-DESENVOLVIMENTO', '#LINHA-DE-PESQUISA']
+#Quantidade de tokens ao todo: 2394
+# pergunta: Há evidências de que os resultados das pesquisas do pesquisador geraram impacto social, tecnológico ou econômico?
+# tags: ['#LINHA-DE-PESQUISA', '#PROJETO-DE-PESQUISA', '#ATIVIDADES-DE-PESQUISA-E-DESENVOLVIMENTO']
+#Quantidade de tokens ao todo: 3313
+# pergunta: O pesquisador possui patentes ou outros produtos registrados oriundos de sua pesquisa?
+# tags: ['#REGISTRO-OU-PATENTE', '#PATENTE', '#PRODUTO-TECNOLOGICO']
+#Quantidade de tokens ao todo: 6340
+# pergunta: O pesquisador foi convidado como palestrante em eventos científicos de prestígio?
+# tags: ['#ATIVIDADES-DE-ENSINO', '#ATIVIDADES-DE-PESQUISA-E-DESENVOLVIMENTO']
+#Quantidade de tokens ao todo: 2508
+# pergunta: Ele já recebeu prêmios ou reconhecimentos por sua contribuição científica?
+# tags: ['#PREMIOS-TITULOS']
+#Quantidade de tokens ao todo: 2923
+### curriculo: Eunice Pereira dos Santos Nunes.xml
+# pergunta: Qual é a quantidade e a qualidade dos artigos publicados pelo pesquisador em periódicos indexados de alto impacto?
+# tags: ['#ARTIGOS-PUBLICADOS', '#PRODUCAO-BIBLIOGRAFICA']
+#Quantidade de tokens ao todo: 124943
+# pergunta: As publicações estão concentradas em revistas ou conferências de relevância na área de atuação?
+# tags: ['#PRODUCAO-BIBLIOGRAFICA', '#ARTIGOS-PUBLICADOS', '#ARTIGOS-ACEITOS-PARA-PUBLICACAO']
+#Quantidade de tokens ao todo: 125743
+# pergunta: Qual é o número de citações dos artigos do pesquisador em bases como Scopus ou Google Scholar?
+# tags: ['#PRODUCAO-BIBLIOGRAFICA', '#ARTIGOS-PUBLICADOS']
+#Quantidade de tokens ao todo: 124941
+# pergunta: O pesquisador possui índice h (h-index) ou outros indicadores de impacto significativo na sua área?
+# tags: ['#LINHA-DE-PESQUISA', '#PRODUCAO-BIBLIOGRAFICA']
+#Quantidade de tokens ao todo: 118765
+# pergunta: O pesquisador já liderou ou participou como proponente de projetos financiados por agências de fomento?
+# tags: ['#LINHA-DE-PESQUISA', '#PROJETO-DE-PESQUISA', '#FINANCIADORES-DO-PROJETO']
+#Quantidade de tokens ao todo: 2405
+# pergunta: Qual é o histórico do pesquisador em atrair recursos de pesquisa por meio de editais competitivos?
+# tags: ['#LINHA-DE-PESQUISA', '#PROJETO-DE-PESQUISA', '#FINANCIADORES-DO-PROJETO']
+#Quantidade de tokens ao todo: 2404
+# pergunta: Quantos alunos de mestrado, doutorado e iniciação científica o pesquisador já orientou ou está orientando?
+# tags: ['#ORIENTACOES']
+#Quantidade de tokens ao todo: 109
+# pergunta: Qual é a relevância das produções acadêmicas desenvolvidas por seus orientandos, como publicações ou trabalhos apresentados?
+# tags: ['#ORIENTACOES', '#PRODUCAO-BIBLIOGRAFICA', '#ARTIGOS-PUBLICADOS']
+#Quantidade de tokens ao todo: 124953
+# pergunta: O pesquisador contribui para a formação de alunos na graduação por meio de atividades como orientação de TCC ou projetos de pesquisa?
+# tags: ['#ORIENTACOES', '#PROJETO-DE-PESQUISA', '#ATIVIDADES-DE-ENSINO']
+#Quantidade de tokens ao todo: 5690
+# pergunta: Qual é o impacto das orientações na carreira acadêmica ou profissional dos alunos formados?
+# tags: ['#ORIENTACOES', '#ATIVIDADES-DE-ENSINO', '#FORMACAO-ACADEMICA-TITULACAO']
+#Quantidade de tokens ao todo: 6181
+# pergunta: O pesquisador participa de redes de colaboração nacionais ou  internacionais relevantes?
+# tags: ['#LINHA-DE-PESQUISA', '#PROJETO-DE-PESQUISA']
+#Quantidade de tokens ao todo: 2306
+# pergunta: Existem evidências de coautorias ou projetos conjuntos com outros pesquisadores de destaque?
+# tags: ['#LINHA-DE-PESQUISA', '#PROJETO-DE-PESQUISA', '#INTEGRANTES-DO-PROJETO']
+#Quantidade de tokens ao todo: 3109
+# pergunta: O pesquisador já ocupou cargos administrativos relevantes (ex.: coordenador de programa de pós-graduação, diretor de instituto, etc.)?
+# tags: ['#ATIVIDADES-DE-DIRECAO-E-ADMINISTRACAO']
+#Quantidade de tokens ao todo: 2069
+# pergunta: Ele lidera grupos de pesquisa reconhecidos pelo CNPq ou outras instituições?
+# tags: ['#EQUIPE-DO-PROJETO', '#ATIVIDADES-DE-PESQUISA-E-DESENVOLVIMENTO', '#LINHA-DE-PESQUISA']
+#Quantidade de tokens ao todo: 2660
+# pergunta: Há evidências de que os resultados das pesquisas do pesquisador geraram impacto social, tecnológico ou econômico?
+# tags: ['#LINHA-DE-PESQUISA', '#PROJETO-DE-PESQUISA', '#ATIVIDADES-DE-PESQUISA-E-DESENVOLVIMENTO']
+#Quantidade de tokens ao todo: 3257
+# pergunta: O pesquisador possui patentes ou outros produtos registrados oriundos de sua pesquisa?
+# tags: ['#REGISTRO-OU-PATENTE', '#PATENTE', '#PRODUTO-TECNOLOGICO']
+#Quantidade de tokens ao todo: 125
+# pergunta: O pesquisador foi convidado como palestrante em eventos científicos de prestígio?
+# tags: ['#ATIVIDADES-DE-ENSINO', '#ATIVIDADES-DE-PESQUISA-E-DESENVOLVIMENTO']
+#Quantidade de tokens ao todo: 5214
+# pergunta: Ele já recebeu prêmios ou reconhecimentos por sua contribuição científica?
+# tags: ['#PREMIOS-TITULOS']
+#Quantidade de tokens ao todo: 101
+### curriculo: Fabio Kon.xml
+# pergunta: Qual é a quantidade e a qualidade dos artigos publicados pelo pesquisador em periódicos indexados de alto impacto?
+# tags: ['#ARTIGOS-PUBLICADOS', '#PRODUCAO-BIBLIOGRAFICA']
+#Quantidade de tokens ao todo: 231612
+# pergunta: As publicações estão concentradas em revistas ou conferências de relevância na área de atuação?
+# tags: ['#PRODUCAO-BIBLIOGRAFICA', '#ARTIGOS-PUBLICADOS', '#ARTIGOS-ACEITOS-PARA-PUBLICACAO']
+#Quantidade de tokens ao todo: 231625
+# pergunta: Qual é o número de citações dos artigos do pesquisador em bases como Scopus ou Google Scholar?
+# tags: ['#PRODUCAO-BIBLIOGRAFICA', '#ARTIGOS-PUBLICADOS']
+#Quantidade de tokens ao todo: 231610
+# pergunta: O pesquisador possui índice h (h-index) ou outros indicadores de impacto significativo na sua área?
+# tags: ['#LINHA-DE-PESQUISA', '#PRODUCAO-BIBLIOGRAFICA']
+#Quantidade de tokens ao todo: 195374
+# pergunta: O pesquisador já liderou ou participou como proponente de projetos financiados por agências de fomento?
+# tags: ['#LINHA-DE-PESQUISA', '#PROJETO-DE-PESQUISA', '#FINANCIADORES-DO-PROJETO']
+#Quantidade de tokens ao todo: 3012
+# pergunta: Qual é o histórico do pesquisador em atrair recursos de pesquisa por meio de editais competitivos?
+# tags: ['#LINHA-DE-PESQUISA', '#PROJETO-DE-PESQUISA', '#FINANCIADORES-DO-PROJETO']
+#Quantidade de tokens ao todo: 3011
+# pergunta: Quantos alunos de mestrado, doutorado e iniciação científica o pesquisador já orientou ou está orientando?
+# tags: ['#ORIENTACOES']
+#Quantidade de tokens ao todo: 109
+# pergunta: Qual é a relevância das produções acadêmicas desenvolvidas por seus orientandos, como publicações ou trabalhos apresentados?
+# tags: ['#ORIENTACOES', '#PRODUCAO-BIBLIOGRAFICA', '#ARTIGOS-PUBLICADOS']
+#Quantidade de tokens ao todo: 231622
+# pergunta: O pesquisador contribui para a formação de alunos na graduação por meio de atividades como orientação de TCC ou projetos de pesquisa?
+# tags: ['#ORIENTACOES', '#PROJETO-DE-PESQUISA', '#ATIVIDADES-DE-ENSINO']
+#Quantidade de tokens ao todo: 3335
+# pergunta: Qual é o impacto das orientações na carreira acadêmica ou profissional dos alunos formados?
+# tags: ['#ORIENTACOES', '#ATIVIDADES-DE-ENSINO', '#FORMACAO-ACADEMICA-TITULACAO']
+#Quantidade de tokens ao todo: 4123
+# pergunta: O pesquisador participa de redes de colaboração nacionais ou  internacionais relevantes?
+# tags: ['#LINHA-DE-PESQUISA', '#PROJETO-DE-PESQUISA']
+#Quantidade de tokens ao todo: 2924
+# pergunta: Existem evidências de coautorias ou projetos conjuntos com outros pesquisadores de destaque?
+# tags: ['#LINHA-DE-PESQUISA', '#PROJETO-DE-PESQUISA', '#INTEGRANTES-DO-PROJETO']
+#Quantidade de tokens ao todo: 3083
+# pergunta: O pesquisador já ocupou cargos administrativos relevantes (ex.: coordenador de programa de pós-graduação, diretor de instituto, etc.)?
+# tags: ['#ATIVIDADES-DE-DIRECAO-E-ADMINISTRACAO']
+#Quantidade de tokens ao todo: 496
+# pergunta: Ele lidera grupos de pesquisa reconhecidos pelo CNPq ou outras instituições?
+# tags: ['#EQUIPE-DO-PROJETO', '#ATIVIDADES-DE-PESQUISA-E-DESENVOLVIMENTO', '#LINHA-DE-PESQUISA']
+#Quantidade de tokens ao todo: 2044
+# pergunta: Há evidências de que os resultados das pesquisas do pesquisador geraram impacto social, tecnológico ou econômico?
+# tags: ['#LINHA-DE-PESQUISA', '#PROJETO-DE-PESQUISA', '#ATIVIDADES-DE-PESQUISA-E-DESENVOLVIMENTO']
+#Quantidade de tokens ao todo: 4177
+# pergunta: O pesquisador possui patentes ou outros produtos registrados oriundos de sua pesquisa?
+# tags: ['#REGISTRO-OU-PATENTE', '#PATENTE', '#PRODUTO-TECNOLOGICO']
+#Quantidade de tokens ao todo: 125
+# pergunta: O pesquisador foi convidado como palestrante em eventos científicos de prestígio?
+# tags: ['#ATIVIDADES-DE-ENSINO', '#ATIVIDADES-DE-PESQUISA-E-DESENVOLVIMENTO']
+#Quantidade de tokens ao todo: 2269
+# pergunta: Ele já recebeu prêmios ou reconhecimentos por sua contribuição científica?
+# tags: ['#PREMIOS-TITULOS']
+#Quantidade de tokens ao todo: 2546
+### curriculo: Itana Maria De Souza Gimenes.xml
+# pergunta: Qual é a quantidade e a qualidade dos artigos publicados pelo pesquisador em periódicos indexados de alto impacto?
+# tags: ['#ARTIGOS-PUBLICADOS', '#PRODUCAO-BIBLIOGRAFICA']
+#Quantidade de tokens ao todo: 229499
+# pergunta: As publicações estão concentradas em revistas ou conferências de relevância na área de atuação?
+# tags: ['#PRODUCAO-BIBLIOGRAFICA', '#ARTIGOS-PUBLICADOS', '#ARTIGOS-ACEITOS-PARA-PUBLICACAO']
+#Quantidade de tokens ao todo: 230247
+# pergunta: Qual é o número de citações dos artigos do pesquisador em bases como Scopus ou Google Scholar?
+# tags: ['#PRODUCAO-BIBLIOGRAFICA', '#ARTIGOS-PUBLICADOS']
+#Quantidade de tokens ao todo: 229498
+# pergunta: O pesquisador possui índice h (h-index) ou outros indicadores de impacto significativo na sua área?
+# tags: ['#LINHA-DE-PESQUISA', '#PRODUCAO-BIBLIOGRAFICA']
+#Quantidade de tokens ao todo: 202684
+# pergunta: O pesquisador já liderou ou participou como proponente de projetos financiados por agências de fomento?
+# tags: ['#LINHA-DE-PESQUISA', '#PROJETO-DE-PESQUISA', '#FINANCIADORES-DO-PROJETO']
+#Quantidade de tokens ao todo: 1251
+# pergunta: Qual é o histórico do pesquisador em atrair recursos de pesquisa por meio de editais competitivos?
+# tags: ['#LINHA-DE-PESQUISA', '#PROJETO-DE-PESQUISA', '#FINANCIADORES-DO-PROJETO']
+#Quantidade de tokens ao todo: 1250
+# pergunta: Quantos alunos de mestrado, doutorado e iniciação científica o pesquisador já orientou ou está orientando?
+# tags: ['#ORIENTACOES']
+#Quantidade de tokens ao todo: 190
+# pergunta: Qual é a relevância das produções acadêmicas desenvolvidas por seus orientandos, como publicações ou trabalhos apresentados?
+# tags: ['#ORIENTACOES', '#PRODUCAO-BIBLIOGRAFICA', '#ARTIGOS-PUBLICADOS']
+#Quantidade de tokens ao todo: 229591
+# pergunta: O pesquisador contribui para a formação de alunos na graduação por meio de atividades como orientação de TCC ou projetos de pesquisa?
+# tags: ['#ORIENTACOES', '#PROJETO-DE-PESQUISA', '#ATIVIDADES-DE-ENSINO']
+#Quantidade de tokens ao todo: 3520
+# pergunta: Qual é o impacto das orientações na carreira acadêmica ou profissional dos alunos formados?
+# tags: ['#ORIENTACOES', '#ATIVIDADES-DE-ENSINO', '#FORMACAO-ACADEMICA-TITULACAO']
+#Quantidade de tokens ao todo: 5046
+# pergunta: O pesquisador participa de redes de colaboração nacionais ou  internacionais relevantes?
+# tags: ['#LINHA-DE-PESQUISA', '#PROJETO-DE-PESQUISA']
+#Quantidade de tokens ao todo: 1154
+# pergunta: Existem evidências de coautorias ou projetos conjuntos com outros pesquisadores de destaque?
+# tags: ['#LINHA-DE-PESQUISA', '#PROJETO-DE-PESQUISA', '#INTEGRANTES-DO-PROJETO']
+#Quantidade de tokens ao todo: 1679
+# pergunta: O pesquisador já ocupou cargos administrativos relevantes (ex.: coordenador de programa de pós-graduação, diretor de instituto, etc.)?
+# tags: ['#ATIVIDADES-DE-DIRECAO-E-ADMINISTRACAO']
+#Quantidade de tokens ao todo: 752
+# pergunta: Ele lidera grupos de pesquisa reconhecidos pelo CNPq ou outras instituições?
+# tags: ['#EQUIPE-DO-PROJETO', '#ATIVIDADES-DE-PESQUISA-E-DESENVOLVIMENTO', '#LINHA-DE-PESQUISA']
+#Quantidade de tokens ao todo: 988
+# pergunta: Há evidências de que os resultados das pesquisas do pesquisador geraram impacto social, tecnológico ou econômico?
+# tags: ['#LINHA-DE-PESQUISA', '#PROJETO-DE-PESQUISA', '#ATIVIDADES-DE-PESQUISA-E-DESENVOLVIMENTO']
+#Quantidade de tokens ao todo: 1412
+# pergunta: O pesquisador possui patentes ou outros produtos registrados oriundos de sua pesquisa?
+# tags: ['#REGISTRO-OU-PATENTE', '#PATENTE', '#PRODUTO-TECNOLOGICO']
+#Quantidade de tokens ao todo: 125
+# pergunta: O pesquisador foi convidado como palestrante em eventos científicos de prestígio?
+# tags: ['#ATIVIDADES-DE-ENSINO', '#ATIVIDADES-DE-PESQUISA-E-DESENVOLVIMENTO']
+#Quantidade de tokens ao todo: 2722
+# pergunta: Ele já recebeu prêmios ou reconhecimentos por sua contribuição científica?
+# tags: ['#PREMIOS-TITULOS']
+#Quantidade de tokens ao todo: 276
+### curriculo: José Viterbo Filho.xml
+# pergunta: Qual é a quantidade e a qualidade dos artigos publicados pelo pesquisador em periódicos indexados de alto impacto?
+# tags: ['#ARTIGOS-PUBLICADOS', '#PRODUCAO-BIBLIOGRAFICA']
+#Quantidade de tokens ao todo: 165327
+# pergunta: As publicações estão concentradas em revistas ou conferências de relevância na área de atuação?
+# tags: ['#PRODUCAO-BIBLIOGRAFICA', '#ARTIGOS-PUBLICADOS', '#ARTIGOS-ACEITOS-PARA-PUBLICACAO']
+#Quantidade de tokens ao todo: 165340
+# pergunta: Qual é o número de citações dos artigos do pesquisador em bases como Scopus ou Google Scholar?
+# tags: ['#PRODUCAO-BIBLIOGRAFICA', '#ARTIGOS-PUBLICADOS']
+#Quantidade de tokens ao todo: 165325
+# pergunta: O pesquisador possui índice h (h-index) ou outros indicadores de impacto significativo na sua área?
+# tags: ['#LINHA-DE-PESQUISA', '#PRODUCAO-BIBLIOGRAFICA']
+#Quantidade de tokens ao todo: 147320
+# pergunta: O pesquisador já liderou ou participou como proponente de projetos financiados por agências de fomento?
+# tags: ['#LINHA-DE-PESQUISA', '#PROJETO-DE-PESQUISA', '#FINANCIADORES-DO-PROJETO']
+#Quantidade de tokens ao todo: 2041
+# pergunta: Qual é o histórico do pesquisador em atrair recursos de pesquisa por meio de editais competitivos?
+# tags: ['#LINHA-DE-PESQUISA', '#PROJETO-DE-PESQUISA', '#FINANCIADORES-DO-PROJETO']
+#Quantidade de tokens ao todo: 2040
+# pergunta: Quantos alunos de mestrado, doutorado e iniciação científica o pesquisador já orientou ou está orientando?
+# tags: ['#ORIENTACOES']
+#Quantidade de tokens ao todo: 109
+# pergunta: Qual é a relevância das produções acadêmicas desenvolvidas por seus orientandos, como publicações ou trabalhos apresentados?
+# tags: ['#ORIENTACOES', '#PRODUCAO-BIBLIOGRAFICA', '#ARTIGOS-PUBLICADOS']
+#Quantidade de tokens ao todo: 165337
+# pergunta: O pesquisador contribui para a formação de alunos na graduação por meio de atividades como orientação de TCC ou projetos de pesquisa?
+# tags: ['#ORIENTACOES', '#PROJETO-DE-PESQUISA', '#ATIVIDADES-DE-ENSINO']
+#Quantidade de tokens ao todo: 2110
+# pergunta: Qual é o impacto das orientações na carreira acadêmica ou profissional dos alunos formados?
+# tags: ['#ORIENTACOES', '#ATIVIDADES-DE-ENSINO', '#FORMACAO-ACADEMICA-TITULACAO']
+#Quantidade de tokens ao todo: 3466
+# pergunta: O pesquisador participa de redes de colaboração nacionais ou  internacionais relevantes?
+# tags: ['#LINHA-DE-PESQUISA', '#PROJETO-DE-PESQUISA']
+#Quantidade de tokens ao todo: 1943
+# pergunta: Existem evidências de coautorias ou projetos conjuntos com outros pesquisadores de destaque?
+# tags: ['#LINHA-DE-PESQUISA', '#PROJETO-DE-PESQUISA', '#INTEGRANTES-DO-PROJETO']
+#Quantidade de tokens ao todo: 2479
+# pergunta: O pesquisador já ocupou cargos administrativos relevantes (ex.: coordenador de programa de pós-graduação, diretor de instituto, etc.)?
+# tags: ['#ATIVIDADES-DE-DIRECAO-E-ADMINISTRACAO']
+#Quantidade de tokens ao todo: 123
+# pergunta: Ele lidera grupos de pesquisa reconhecidos pelo CNPq ou outras instituições?
+# tags: ['#EQUIPE-DO-PROJETO', '#ATIVIDADES-DE-PESQUISA-E-DESENVOLVIMENTO', '#LINHA-DE-PESQUISA']
+#Quantidade de tokens ao todo: 1222
+# pergunta: Há evidências de que os resultados das pesquisas do pesquisador geraram impacto social, tecnológico ou econômico?
+# tags: ['#LINHA-DE-PESQUISA', '#PROJETO-DE-PESQUISA', '#ATIVIDADES-DE-PESQUISA-E-DESENVOLVIMENTO']
+#Quantidade de tokens ao todo: 2317
+# pergunta: O pesquisador possui patentes ou outros produtos registrados oriundos de sua pesquisa?
+# tags: ['#REGISTRO-OU-PATENTE', '#PATENTE', '#PRODUTO-TECNOLOGICO']
+#Quantidade de tokens ao todo: 125
+# pergunta: O pesquisador foi convidado como palestrante em eventos científicos de prestígio?
+# tags: ['#ATIVIDADES-DE-ENSINO', '#ATIVIDADES-DE-PESQUISA-E-DESENVOLVIMENTO']
+#Quantidade de tokens ao todo: 826
+# pergunta: Ele já recebeu prêmios ou reconhecimentos por sua contribuição científica?
+# tags: ['#PREMIOS-TITULOS']
+#Quantidade de tokens ao todo: 380
+### curriculo: Lisandro Zambenedetti Granville.xml
+# pergunta: Qual é a quantidade e a qualidade dos artigos publicados pelo pesquisador em periódicos indexados de alto impacto?
+# tags: ['#ARTIGOS-PUBLICADOS', '#PRODUCAO-BIBLIOGRAFICA']
+#Quantidade de tokens ao todo: 383434
+# pergunta: As publicações estão concentradas em revistas ou conferências de relevância na área de atuação?
+# tags: ['#PRODUCAO-BIBLIOGRAFICA', '#ARTIGOS-PUBLICADOS', '#ARTIGOS-ACEITOS-PARA-PUBLICACAO']
+#Quantidade de tokens ao todo: 383448
+# pergunta: Qual é o número de citações dos artigos do pesquisador em bases como Scopus ou Google Scholar?
+# tags: ['#PRODUCAO-BIBLIOGRAFICA', '#ARTIGOS-PUBLICADOS']
+#Quantidade de tokens ao todo: 383433
+# pergunta: O pesquisador possui índice h (h-index) ou outros indicadores de impacto significativo na sua área?
+# tags: ['#LINHA-DE-PESQUISA', '#PRODUCAO-BIBLIOGRAFICA']
+#Quantidade de tokens ao todo: 332964
+# pergunta: O pesquisador já liderou ou participou como proponente de projetos financiados por agências de fomento?
+# tags: ['#LINHA-DE-PESQUISA', '#PROJETO-DE-PESQUISA', '#FINANCIADORES-DO-PROJETO']
+#Quantidade de tokens ao todo: 3024
+# pergunta: Qual é o histórico do pesquisador em atrair recursos de pesquisa por meio de editais competitivos?
+# tags: ['#LINHA-DE-PESQUISA', '#PROJETO-DE-PESQUISA', '#FINANCIADORES-DO-PROJETO']
+#Quantidade de tokens ao todo: 3023
+# pergunta: Quantos alunos de mestrado, doutorado e iniciação científica o pesquisador já orientou ou está orientando?
+# tags: ['#ORIENTACOES']
+#Quantidade de tokens ao todo: 109
+# pergunta: Qual é a relevância das produções acadêmicas desenvolvidas por seus orientandos, como publicações ou trabalhos apresentados?
+# tags: ['#ORIENTACOES', '#PRODUCAO-BIBLIOGRAFICA', '#ARTIGOS-PUBLICADOS']
+#Quantidade de tokens ao todo: 383445
+# pergunta: O pesquisador contribui para a formação de alunos na graduação por meio de atividades como orientação de TCC ou projetos de pesquisa?
+# tags: ['#ORIENTACOES', '#PROJETO-DE-PESQUISA', '#ATIVIDADES-DE-ENSINO']
+#Quantidade de tokens ao todo: 8139
+# pergunta: Qual é o impacto das orientações na carreira acadêmica ou profissional dos alunos formados?
+# tags: ['#ORIENTACOES', '#ATIVIDADES-DE-ENSINO', '#FORMACAO-ACADEMICA-TITULACAO']
+#Quantidade de tokens ao todo: 8299
+# pergunta: O pesquisador participa de redes de colaboração nacionais ou  internacionais relevantes?
+# tags: ['#LINHA-DE-PESQUISA', '#PROJETO-DE-PESQUISA']
+#Quantidade de tokens ao todo: 2864
+# pergunta: Existem evidências de coautorias ou projetos conjuntos com outros pesquisadores de destaque?
+# tags: ['#LINHA-DE-PESQUISA', '#PROJETO-DE-PESQUISA', '#INTEGRANTES-DO-PROJETO']
+#Quantidade de tokens ao todo: 3491
+# pergunta: O pesquisador já ocupou cargos administrativos relevantes (ex.: coordenador de programa de pós-graduação, diretor de instituto, etc.)?
+# tags: ['#ATIVIDADES-DE-DIRECAO-E-ADMINISTRACAO']
+#Quantidade de tokens ao todo: 300
+# pergunta: Ele lidera grupos de pesquisa reconhecidos pelo CNPq ou outras instituições?
+# tags: ['#EQUIPE-DO-PROJETO', '#ATIVIDADES-DE-PESQUISA-E-DESENVOLVIMENTO', '#LINHA-DE-PESQUISA']
+#Quantidade de tokens ao todo: 1547
+# pergunta: Há evidências de que os resultados das pesquisas do pesquisador geraram impacto social, tecnológico ou econômico?
+# tags: ['#LINHA-DE-PESQUISA', '#PROJETO-DE-PESQUISA', '#ATIVIDADES-DE-PESQUISA-E-DESENVOLVIMENTO']
+#Quantidade de tokens ao todo: 3351
+# pergunta: O pesquisador possui patentes ou outros produtos registrados oriundos de sua pesquisa?
+# tags: ['#REGISTRO-OU-PATENTE', '#PATENTE', '#PRODUTO-TECNOLOGICO']
+#Quantidade de tokens ao todo: 1375
+# pergunta: O pesquisador foi convidado como palestrante em eventos científicos de prestígio?
+# tags: ['#ATIVIDADES-DE-ENSINO', '#ATIVIDADES-DE-PESQUISA-E-DESENVOLVIMENTO']
+#Quantidade de tokens ao todo: 6168
+# pergunta: Ele já recebeu prêmios ou reconhecimentos por sua contribuição científica?
+# tags: ['#PREMIOS-TITULOS']
+#Quantidade de tokens ao todo: 2148
