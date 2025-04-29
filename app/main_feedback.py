@@ -22,6 +22,14 @@ CURRICULO_DIR = "curriculos/"
 CONSULTAS_DIR = "consultas/"
 
 
+@st.dialog("Explicação da Avaliação")
+def explicacao():
+    st.write(f"Voce deve avaliar o LLM tendo em vista a...")
+
+    if st.button("Entendido"):
+        st.session_state.explicacaodada = True
+        st.rerun()
+
 def main():
     st.set_page_config(
         page_title="Converse com o currículo",
@@ -33,8 +41,12 @@ def main():
     if 'disable_chat_bool' not in st.session_state:
         st.session_state.disable_chat_bool = True  # 'value'
 
+
+    if "explicacaodada" not in st.session_state:
+        explicacao()
     # disable_chat_bool = True
     curriculo_name = ""
+    
 
     with st.sidebar:
 
@@ -86,7 +98,8 @@ def main():
         if "messages" not in st.session_state:
             st.session_state.messages = []
 
-        historico_mensagens = st.container(height=250, border=True)
+        historico_mensagens = st.container(height=350, border=True)
+        
         with historico_mensagens:
             # exibe o historico das mensganes
             for message in st.session_state.messages:
@@ -119,19 +132,12 @@ def main():
                                    )
             st.write("Prompt selecionado:", user_input)
 
-            n_selecionado=False
 
-            if user_input is not None:
-                n_selecionado = True
-            
             selecionado = st.form_submit_button("Selecionar")
         
         if(selecionado):
             #adiciona a mensagem do usuario ao historico
             st.session_state.messages.append({"role": "user", "content": user_input})
-            #atualiza a interface com o prompt
-            with st.chat_message("user"):
-                st.markdown(user_input)
             
             # Manda o prommpt do usuario para o chat e espera a resposta
             with st.spinner("Carregando..."):
@@ -139,30 +145,24 @@ def main():
             
             #Adiciona a mensagem do bot ao historico
             st.session_state.messages.append({"role": "assistant", "content": bot_reply})
-            # atualiza a interface com a nova respostta
-            with st.chat_message("assistant"):
-                st.markdown(bot_reply)
+            
+            # Força a reexecução para atualizar o histórico imediatamente
+            st.rerun()
 
-            n_selecionado = False
 
 
     with col2:
         form_avaliador = st.form("form_avaliador")
         with form_avaliador:
             
-            slider_val = st.select_slider("Avalie a resposta do LLM", options=["Péssimo","Ruim", "Médio", "Bom", "Ótimo"])
-            
-            sentiment_mapping = ["Péssima", "Ruim", "Média", "Boa", "Ótima"]
+            st.write("Avalie com as seguintes estrelas o aplicativo:")
             selected = st.feedback("stars")
-            
-            if selected is not None:
-                st.markdown(f"Eu achei a resposta do bot {sentiment_mapping[selected]} star(s).")
 
             submitted = st.form_submit_button("enviar")
 
         if submitted:
-            st.write("slider", slider_val)
-            st.write("stars", sentiment_mapping[selected])
+        #    st.write("slider", slider_val)
+            st.write("stars", selected)
 
 
 if __name__ == "__main__":
