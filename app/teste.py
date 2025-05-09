@@ -45,7 +45,7 @@ def final_response_generator(prompt, dict_cv, max_context_request):
     categoria = categorizar_prompt(prompt)
 
     # Extrai tags associadas à categoria
-    tags_relacionadas = extrai_tags(categoria)
+    tags_relacionadas = extract_prompt_tags(categoria)
 
     # Inicializa o contexto do request
     context_request = {}
