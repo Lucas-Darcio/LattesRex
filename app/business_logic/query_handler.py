@@ -1,32 +1,78 @@
 import json
-from app.api.openai_api import send_query_to_openai_chat_bot
+import tiktoken
+from app.api.openai_api import partial_request, final_request, prompt_categorizer
+from app.business_logic.compression_utils import extract_prompt_tags
 
-
-def buscar_chave(dados, chave):
-    """
-    Busca recursivamente por uma chave em um JSON aninhado e retorna o primeiro valor encontrado.
-
-    :param dados: Dicionário ou lista contendo os dados JSON.
-    :param chave: String representando a chave a ser buscada (exemplo: "#ATUACOES-PROFISSIONAIS").
-    :return: O primeiro valor encontrado para a chave ou None se não for encontrado.
-    """
-    chave = chave.lstrip("#")  # Remove o "#" do início da chave
-
-    if isinstance(dados, dict):
-        if chave in dados:
-            return dados[chave]
-        for valor in dados.values():
-            resultado = buscar_chave(valor, chave)
+# função que retorna o valor da chave procurada
+def buscar_chave(obj, chave_procurada):
+    if isinstance(obj, dict):
+        for k, v in obj.items():
+            if k == chave_procurada:
+                return v
+            resultado = buscar_chave(v, chave_procurada)
             if resultado is not None:
                 return resultado
-
-    elif isinstance(dados, list):
-        for item in dados:
-            resultado = buscar_chave(item, chave)
+    elif isinstance(obj, list):
+        for item in obj:
+            resultado = buscar_chave(item, chave_procurada)
             if resultado is not None:
                 return resultado
-
     return None
+
+
+# função que recebe o prompt e retorna a resposta
+def final_response_generator(prompt, dict_cv, max_context_request):
+    # Categoriza a prompt
+    categoria = prompt_categorizer(prompt)
+
+    # Extrai tags associadas à categoria
+    tags_relacionadas = extract_prompt_tags(categoria)
+
+    # Inicializa o contexto do request
+    context_request = {}
+
+    # Armazena tudo que já foi usado
+    all_context = {}
+
+    # Armazena as respostas intermediárias
+    responses = []
+
+    # Codificador de tokens
+    encoder = tiktoken.get_encoding("gpt-4o-mini-2024-07-18")
+
+    for i, tag_rel in enumerate(tags_relacionadas):
+        # Pula se a tag já foi usada em algum lugar do contexto
+        if buscar_chave(all_context, tag_rel):
+            continue
+
+        # Recupera o conteúdo da tag
+        content_tag_rel = dict_cv.get(tag_rel, "")
+
+        # Calcula tokens atuais
+        tam_ctxt_rqst = len(encoder.encode(json.dumps(context_request)))
+        tam_tag_rel = len(encoder.encode(content_tag_rel))
+
+        # Se estourar o limite, envia e reinicia o contexto
+        if tam_ctxt_rqst + tam_tag_rel > max_context_request:
+            context_string = json.dumps(context_request)
+            responses.append(partial_request(context_string, prompt))
+            context_request = {}
+
+        # Adiciona a nova tag ao contexto atual e ao total
+        context_request[tag_rel] = content_tag_rel
+        all_context[tag_rel] = content_tag_rel
+
+        # Última iteração → força envio
+        if i == len(tags_relacionadas) - 1:
+            context_string = json.dumps(context_request)
+            responses.append(partial_request(context_string, prompt))
+
+    # Junta as respostas parciais e envia para resumo final
+    combined_responses = "\n\n".join(responses)
+    final_response = final_request(combined_responses, prompt)
+
+    return final_response
+
 
 def extract_attributes_chatbot(tags, curriculo):
     
@@ -81,3 +127,28 @@ def handle_query_chat(curriculo_data, query):
     # response = None
     return response, intermediary_analyses
 
+def old_buscar_chave(dados, chave):
+    """
+    Busca recursivamente por uma chave em um JSON aninhado e retorna o primeiro valor encontrado.
+
+    :param dados: Dicionário ou lista contendo os dados JSON.
+    :param chave: String representando a chave a ser buscada (exemplo: "#ATUACOES-PROFISSIONAIS").
+    :return: O primeiro valor encontrado para a chave ou None se não for encontrado.
+    """
+    chave = chave.lstrip("#")  # Remove o "#" do início da chave
+
+    if isinstance(dados, dict):
+        if chave in dados:
+            return dados[chave]
+        for valor in dados.values():
+            resultado = buscar_chave(valor, chave)
+            if resultado is not None:
+                return resultado
+
+    elif isinstance(dados, list):
+        for item in dados:
+            resultado = buscar_chave(item, chave)
+            if resultado is not None:
+                return resultado
+
+    return None
