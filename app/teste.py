@@ -8,7 +8,8 @@ import tiktoken
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
 from app.business_logic.query_handler import  final_response_generator_log, extract_attributes_chatbot, handle_query_chat
-from app.api.openai_api import extract_related_tags
+#from app.api.openai_api import extract_related_tags
+from app.business_logic.resume_processor import process_resume
 
 # Diretório onde os currículos armazenados ficam
 CURRICULO_DIR = "curriculos/"
@@ -23,4 +24,7 @@ prompts_list = ["Qual é a quantidade e a qualidade dos artigos publicados pelo 
              "Há evidências de que os resultados das pesquisas do pesquisador geraram impacto social, tecnológico ou econômico?", "O pesquisador possui patentes ou outros produtos registrados oriundos de sua pesquisa?", "O pesquisador foi convidado como palestrante em eventos científicos de prestígio?", "Ele já recebeu prêmios ou reconhecimentos por sua contribuição científica?"
              ]
 
-final_response_generator_log(prompts_list[0], )
+curriculo_processado = process_resume(os.path.join(CURRICULO_DIR, "Alba Cristina Magalhães Alves de Melo.xml"))    
+
+
+final_response_generator_log(prompts_list[0], curriculo_processado, 122000)

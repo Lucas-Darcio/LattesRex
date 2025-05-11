@@ -1,0 +1,20 @@
+
+============================================================
+Execução em 2025-05-11 00:29:49.057406
+Prompt: Qual é a quantidade e a qualidade dos artigos publicados pelo pesquisador em periódicos indexados de alto impacto?
+Categoria: 8. **Produção Bibliográfica**  
+    **Significado:**  
+    Abrange publicações acadêmicas como artigos científicos, livros, capítulos de livros, resumos em anais, trabalhos completos, entre outros materiais bibliográficos.  
+    **Tags associadas:**
+    ["#PRODUCAO-BIBLIOGRAFICA", "#TRABALHOS-EM-EVENTOS", "#TRABALHO-EM-EVENTOS", "#ARTIGOS-PUBLICADOS", "#ARTIGO-PUBLICADO", "#ARTIGOS-ACEITOS-PARA-PUBLICACAO", "#ARTIGO-ACEITO-PARA-PUBLICACAO", "#LIVROS-E-CAPITULOS", "#LIVROS-PUBLICADOS-OU-ORGANIZADOS", "#CAPITULOS-DE-LIVROS-PUBLICADOS", "#TEXTOS-EM-JORNAIS-OU-REVISTAS", "#DEMAIS-TIPOS-DE-PRODUCAO-BIBLIOGRAFICA", "#PARTITURA-MUSICAL", "#PREFACIO-POSFACIO", "#TRADUCAO"]
+Tags relacionadas: ['#PRODUCAO-BIBLIOGRAFICA', '#TRABALHOS-EM-EVENTOS', '#TRABALHO-EM-EVENTOS', '#ARTIGOS-PUBLICADOS', '#ARTIGO-PUBLICADO', '#ARTIGOS-ACEITOS-PARA-PUBLICACAO', '#ARTIGO-ACEITO-PARA-PUBLICACAO', '#LIVROS-E-CAPITULOS', '#LIVROS-PUBLICADOS-OU-ORGANIZADOS', '#CAPITULOS-DE-LIVROS-PUBLICADOS', '#TEXTOS-EM-JORNAIS-OU-REVISTAS', '#DEMAIS-TIPOS-DE-PRODUCAO-BIBLIOGRAFICA', '#PARTITURA-MUSICAL', '#PREFACIO-POSFACIO', '#TRADUCAO']
+
+============================================================
+Execução em 2025-05-11 00:32:29.342977
+Prompt: Qual é a quantidade e a qualidade dos artigos publicados pelo pesquisador em periódicos indexados de alto impacto?
+Categoria: 8. **Produção Bibliográfica**  
+    **Significado:**  
+    Abrange publicações acadêmicas como artigos científicos, livros, capítulos de livros, resumos em anais, trabalhos completos, entre outros materiais bibliográficos.  
+    **Tags associadas:**
+    ["#PRODUCAO-BIBLIOGRAFICA", "#TRABALHOS-EM-EVENTOS", "#TRABALHO-EM-EVENTOS", "#ARTIGOS-PUBLICADOS", "#ARTIGO-PUBLICADO", "#ARTIGOS-ACEITOS-PARA-PUBLICACAO", "#ARTIGO-ACEITO-PARA-PUBLICACAO", "#LIVROS-E-CAPITULOS", "#LIVROS-PUBLICADOS-OU-ORGANIZADOS", "#CAPITULOS-DE-LIVROS-PUBLICADOS", "#TEXTOS-EM-JORNAIS-OU-REVISTAS", "#DEMAIS-TIPOS-DE-PRODUCAO-BIBLIOGRAFICA", "#PARTITURA-MUSICAL", "#PREFACIO-POSFACIO", "#TRADUCAO"]
+Tags relacionadas: ['#PRODUCAO-BIBLIOGRAFICA', '#TRABALHOS-EM-EVENTOS', '#TRABALHO-EM-EVENTOS', '#ARTIGOS-PUBLICADOS', '#ARTIGO-PUBLICADO', '#ARTIGOS-ACEITOS-PARA-PUBLICACAO', '#ARTIGO-ACEITO-PARA-PUBLICACAO', '#LIVROS-E-CAPITULOS', '#LIVROS-PUBLICADOS-OU-ORGANIZADOS', '#CAPITULOS-DE-LIVROS-PUBLICADOS', '#TEXTOS-EM-JORNAIS-OU-REVISTAS', '#DEMAIS-TIPOS-DE-PRODUCAO-BIBLIOGRAFICA', '#PARTITURA-MUSICAL', '#PREFACIO-POSFACIO', '#TRADUCAO']
