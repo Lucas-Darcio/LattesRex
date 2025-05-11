@@ -25,6 +25,6 @@ prompts_list = ["Qual é a quantidade e a qualidade dos artigos publicados pelo 
              ]
 
 curriculo_processado = process_resume(os.path.join(CURRICULO_DIR, "Alba Cristina Magalhães Alves de Melo.xml"))    
+print(type(curriculo_processado))
 
-
-final_response_generator_log(prompts_list[0], curriculo_processado, 122000)
+#final_response_generator_log(prompts_list[0], curriculo_processado, 122000)

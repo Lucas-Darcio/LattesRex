@@ -124,8 +124,15 @@ def final_response_generator_log(prompt, dict_cv, max_context_request):
     responses = []
 
     # Codificador de tokens
-    encoder = tiktoken.get_encoding("gpt-4o-mini")
+    #encoding = tiktoken.encoding_for_model("gpt-4o-mini-2024-07-18")
+    
+    encoder = tiktoken.encoding_for_model("gpt-4o")
 
+    texto = "Esse é um teste para contar corretamente os tokens."
+    tokens = encoder.encode(texto)
+    print("Tokens:", tokens)
+    print("Quantidade de tokens:", len(tokens))
+    
     for i, tag_rel in enumerate(tags_relacionadas):
         tag_info = f"\n[Tag {i+1}/{len(tags_relacionadas)}: {tag_rel}]\n"
         
