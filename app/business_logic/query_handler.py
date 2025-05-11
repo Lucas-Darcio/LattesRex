@@ -2,7 +2,7 @@ import json
 import tiktoken
 from datetime import datetime
 from app.api.openai_api import partial_request, final_request, prompt_categorizer
-from app.business_logic.compression_utils import extract_prompt_tags
+from app.business_logic.compression_utils import extract_tags
 
 # função que retorna o valor da chave procurada
 def buscar_chave(obj, chave_procurada):
@@ -27,7 +27,7 @@ def final_response_generator(prompt, dict_cv, max_context_request):
     categoria = prompt_categorizer(prompt)
 
     # Extrai tags associadas à categoria
-    tags_relacionadas = extract_prompt_tags(categoria)
+    tags_relacionadas = extract_tags(categoria)
 
     # Inicializa o contexto do request
     context_request = {}
@@ -39,7 +39,7 @@ def final_response_generator(prompt, dict_cv, max_context_request):
     responses = []
 
     # Codificador de tokens
-    encoder = tiktoken.get_encoding("gpt-4o-mini-2024-07-18")
+    encoder = tiktoken.encoding_for_model("gpt-4o-mini-2024-07-18")
 
     for i, tag_rel in enumerate(tags_relacionadas):
         # Pula se a tag já foi usada em algum lugar do contexto
@@ -47,7 +47,7 @@ def final_response_generator(prompt, dict_cv, max_context_request):
             continue
 
         # Recupera o conteúdo da tag
-        content_tag_rel = dict_cv.get(tag_rel, "")
+        content_tag_rel = buscar_chave(dict_cv, tag_rel)
         
         # transforma os dicts em strings
         str_context_request = json.dumps(context_request)
@@ -94,115 +94,92 @@ def final_response_generator(prompt, dict_cv, max_context_request):
 
     return final_response
 
+import json
+import tiktoken
+import datetime
+import traceback
+
+def log(msg, file_path="debug_log.txt"):
+    timestamp = datetime.datetime.now().strftime("[%Y-%m-%d %H:%M:%S]")
+    with open(file_path, "a", encoding="utf-8") as f:
+        f.write(f"{timestamp} {msg}\n")
 
 def final_response_generator_log(prompt, dict_cv, max_context_request):
-    # Inicializa log
-    with open("debug_log.txt", "a", encoding="utf-8") as log:
-        log.write(f"\n{'='*60}\n")
-        log.write(f"Execução em {datetime.now()}\n")
-        log.write(f"Prompt: {prompt}\n")
+    log("\n\n=== NOVA EXECUÇÃO ===")
+    log(f"Prompt recebido: {prompt}")
 
-    # Categoriza a prompt
-    categoria = prompt_categorizer(prompt)
+    try:
+        categoria = prompt_categorizer(prompt)
+        log(f"Categoria identificada: {categoria}")
 
-    with open("debug_log.txt", "a", encoding="utf-8") as log:
-        log.write(f"Categoria: {categoria}\n")
+        tags_relacionadas = extract_tags(categoria)
+        log(f"Tags relacionadas extraídas: {tags_relacionadas}")
 
-    # Extrai tags associadas à categoria
-    tags_relacionadas = extract_prompt_tags(categoria)
+        context_request = {}
+        all_context = {}
+        responses = []
 
-    with open("debug_log.txt", "a", encoding="utf-8") as log:
-        log.write(f"Tags relacionadas: {tags_relacionadas}\n")
+        encoder = tiktoken.encoding_for_model("gpt-4o-mini-2024-07-18")
 
-    # Inicializa o contexto do request
-    context_request = {}
+        for i, tag_rel in enumerate(tags_relacionadas):
+            log(f"\n--- Iteração {i+1}/{len(tags_relacionadas)}: tag '{tag_rel}' ---")
 
-    # Armazena tudo que já foi usado
-    all_context = {}
-
-    # Armazena as respostas intermediárias
-    responses = []
-
-    # Codificador de tokens
-    #encoding = tiktoken.encoding_for_model("gpt-4o-mini-2024-07-18")
-    
-    encoder = tiktoken.encoding_for_model("gpt-4o")
-
-    texto = "Esse é um teste para contar corretamente os tokens."
-    tokens = encoder.encode(texto)
-    print("Tokens:", tokens)
-    print("Quantidade de tokens:", len(tokens))
-    
-    for i, tag_rel in enumerate(tags_relacionadas):
-        tag_info = f"\n[Tag {i+1}/{len(tags_relacionadas)}: {tag_rel}]\n"
-        
-        # Pula se a tag já foi usada em algum lugar do contexto
-        if buscar_chave(all_context, tag_rel):
-            tag_info += f"→ Tag '{tag_rel}' pulada (já usada)\n"
-            with open("debug_log.txt", "a", encoding="utf-8") as log:
-                log.write(tag_info)
-            continue
-
-        # Recupera o conteúdo da tag
-        content_tag_rel = dict_cv.get(tag_rel, "")
-        
-        # transforma os dicts em strings
-        str_context_request = json.dumps(context_request)
-        str_content_tag = json.dumps(content_tag_rel)
-        
-        # encoding da string
-        encoded_content_tag = encoder.encode(str_content_tag)
-
-        # Calcula tokens atuais
-        tam_content_tag = len(encoded_content_tag)
-
-        # Verifica o tamanho de context_request + nova tag
-        context_request_test = context_request.copy()
-        context_request_test[tag_rel] = content_tag_rel
-        str_test = json.dumps(context_request_test)
-        tam_test = len(encoder.encode(str_test))
-
-        # Adiciona dados ao log
-        tag_info += f"Tamanho da tag isolada: {tam_content_tag} tokens\n"
-        tag_info += f"Tamanho do contexto teste (com a tag): {tam_test} tokens\n"
-        tag_info += f"Excede max_context_request? {tam_test > max_context_request}\n"
-        tag_info += f"Tag sozinha excede limite? {tam_content_tag > max_context_request}\n"
-
-        with open("debug_log.txt", "a", encoding="utf-8") as log:
-            log.write(tag_info)
-
-        # Se tamanho total com a tag exceder o limite
-        if tam_test > max_context_request:
-            responses.append(partial_request(prompt, categoria, str_context_request))
-            context_request = {}
-
-        # Se a tag sozinha for maior que o maximo de contexto
-        if tam_content_tag > max_context_request:
-            encoded_content_tag = encoded_content_tag[-(max_context_request-2):]
-            str_content_tag = encoder.decode(encoded_content_tag)
-            try:
-                content_tag_rel = json.loads(str_content_tag)
-            except json.JSONDecodeError:
-                with open("debug_log.txt", "a", encoding="utf-8") as log:
-                    log.write("❗ Erro ao decodificar JSON truncado da tag. Tag ignorada.\n")
+            if buscar_chave(all_context, tag_rel):
+                log(f"Tag '{tag_rel}' já usada no contexto. Pulando.")
                 continue
 
-        # Adiciona a nova tag ao contexto atual e ao total
-        context_request[tag_rel] = content_tag_rel
-        all_context[tag_rel] = content_tag_rel
+            content_tag_rel = buscar_chave(dict_cv, tag_rel)
+            if content_tag_rel is None:
+                log(f"Tag '{tag_rel}' não encontrada no dict_cv.")
+                continue
 
-        # Última iteração → força envio
-        if i == len(tags_relacionadas) - 1:
-            context_string = json.dumps(context_request)
-            responses.append(partial_request(prompt, categoria, context_string))
+            str_context_request = json.dumps(context_request)
+            str_content_tag = json.dumps(content_tag_rel)
+            encoded_content_tag = encoder.encode(str_content_tag)
+            tam_content_tag = len(encoded_content_tag)
 
-    # Junta as respostas parciais e envia para resumo final
-    combined_responses = "\n\n".join(responses)
-    final_response = final_request(combined_responses, prompt)
+            context_request_test = context_request.copy()
+            context_request_test[tag_rel] = content_tag_rel
+            str_test = json.dumps(context_request_test)
+            tam_test = len(encoder.encode(str_test))
 
-    with open("debug_log.txt", "a", encoding="utf-8") as log:
-        log.write(f"\nResposta final combinada:\n{final_response}\n")
-        log.write(f"{'='*60}\n")
+            log(f"Tamanho da tag '{tag_rel}': {tam_content_tag} tokens")
+            log(f"Tamanho do contexto simulado com tag '{tag_rel}': {tam_test} tokens")
+
+            if tam_test > max_context_request:
+                log(f"Contexto excede o limite ({max_context_request}). Enviando request parcial.")
+                responses.append(partial_request(prompt, categoria, str_context_request))
+                context_request = {}
+
+            if tam_content_tag > max_context_request:
+                log(f"Tag isolada excede limite. Será truncada.")
+                encoded_content_tag = encoded_content_tag[-(max_context_request-2):]
+                str_content_tag = encoder.decode(encoded_content_tag)
+                content_tag_rel = json.loads(str_content_tag)
+
+            context_request[tag_rel] = content_tag_rel
+            all_context[tag_rel] = content_tag_rel
+
+            if i == len(tags_relacionadas) - 1:
+                log(f"Última iteração. Enviando request com contexto final.")
+                context_string = json.dumps(context_request)
+                responses.append(partial_request(prompt, categoria, context_string))
+
+    except Exception as e:
+        log("!!! ERRO DURANTE EXECUÇÃO !!!")
+        log(str(e))
+        log(traceback.format_exc())
+        raise e
+
+    try:
+        combined_responses = "\n\n".join(responses)
+        final_response = final_request(combined_responses, prompt)
+        log("Resposta final gerada com sucesso.")
+    except Exception as e:
+        log("!!! ERRO NA GERAÇÃO DA RESPOSTA FINAL !!!")
+        log(str(e))
+        log(traceback.format_exc())
+        raise e
 
     return final_response
 

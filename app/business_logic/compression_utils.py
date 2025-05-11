@@ -173,5 +173,13 @@ def extract_prompt_tags(prompt: str):
       tags.append(match)
   return tags
 
+def extract_tags(prompt: str):
+    tags = []
+    pattern = r'#\w[\w\-_=+]*'  # Captura palavras iniciadas com #
+    matches = re.findall(pattern, prompt)
+    for match in matches:
+        tags.append(match[1:])  # Remove o caractere '#' inicial
+    return tags
+
 # with open("altigran.json", "w") as f:
 #     json.dump(xml_to_dict("/home/amanda_spellen/code/pibic/feedback_app/lattes_llm_v3/app/business_logic/Altigran Soares da Silva.xml"), f)

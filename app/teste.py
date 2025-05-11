@@ -7,9 +7,12 @@ import tiktoken
 # Adiciona o diretório raiz ao PYTHONPATH
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
-from app.business_logic.query_handler import  final_response_generator_log, extract_attributes_chatbot, handle_query_chat
+from app.business_logic.query_handler import  final_response_generator_log, extract_attributes_chatbot, handle_query_chat, buscar_chave
 #from app.api.openai_api import extract_related_tags
 from app.business_logic.resume_processor import process_resume
+from app.data_access.file_manager import list_curriculos
+from app.api.openai_api import partial_request, final_request, prompt_categorizer
+from app.business_logic.compression_utils import extract_prompt_tags
 
 # Diretório onde os currículos armazenados ficam
 CURRICULO_DIR = "curriculos/"
@@ -24,7 +27,21 @@ prompts_list = ["Qual é a quantidade e a qualidade dos artigos publicados pelo 
              "Há evidências de que os resultados das pesquisas do pesquisador geraram impacto social, tecnológico ou econômico?", "O pesquisador possui patentes ou outros produtos registrados oriundos de sua pesquisa?", "O pesquisador foi convidado como palestrante em eventos científicos de prestígio?", "Ele já recebeu prêmios ou reconhecimentos por sua contribuição científica?"
              ]
 
-curriculo_processado = process_resume(os.path.join(CURRICULO_DIR, "Alba Cristina Magalhães Alves de Melo.xml"))    
-print(type(curriculo_processado))
 
-#final_response_generator_log(prompts_list[0], curriculo_processado, 122000)
+
+stored_resumes = list_curriculos(CURRICULO_DIR)
+
+curriculo_processado = process_resume(os.path.join(CURRICULO_DIR, "Alba Cristina Magalhães Alves de Melo.xml"))   
+
+data = buscar_chave(curriculo_processado, 'PRODUCAO-BIBLIOGRAFICA')
+
+
+categoria = prompt_categorizer(prompts_list[0])
+
+# Extrai tags associadas à categoria
+tags_relacionadas = extract_prompt_tags(categoria)
+
+# Codificador de tokens
+encoder = tiktoken.encoding_for_model("gpt-4o-mini-2024-07-18")
+
+f = final_response_generator_log(prompts_list[0], curriculo_processado, 122000)
