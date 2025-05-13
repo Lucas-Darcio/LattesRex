@@ -7,17 +7,53 @@ import tiktoken
 # Adiciona o diretório raiz ao PYTHONPATH
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
-from app.business_logic.query_handler import  final_response_generator_log, extract_attributes_chatbot, handle_query_chat, buscar_chave
+from app.business_logic.query_handler import  final_response_generator_debug, extract_attributes_chatbot, handle_query_chat, buscar_chave
 #from app.api.openai_api import extract_related_tags
 from app.business_logic.resume_processor import process_resume
 from app.data_access.file_manager import list_curriculos
 from app.api.openai_api import partial_request, final_request, prompt_categorizer
 from app.business_logic.compression_utils import extract_prompt_tags
 
+import json
+
+def get_json_data_types(json_data, types_found=None):
+    if types_found is None:
+        types_found = set()
+
+    if isinstance(json_data, dict):
+        types_found.add('dict')
+        for value in json_data.values():
+            get_json_data_types(value, types_found)
+    elif isinstance(json_data, list):
+        types_found.add('list')
+        for item in json_data:
+            get_json_data_types(item, types_found)
+    elif isinstance(json_data, str):
+        types_found.add('str')
+    elif isinstance(json_data, int):
+        types_found.add('int')
+    elif isinstance(json_data, float):
+        types_found.add('float')
+    elif isinstance(json_data, bool):
+        types_found.add('bool')
+    elif json_data is None:
+        types_found.add('null')  # ou 'NoneType'
+    else:
+        types_found.add(type(json_data).__name__)  # tipo desconhecido
+
+    return types_found
+
+def get_types_from_json_file(filename):
+    with open(filename, 'r', encoding='utf-8') as f:
+        data = json.load(f)
+    return list(get_json_data_types(data))
+
+
 # Diretório onde os currículos armazenados ficam
 CURRICULO_DIR = "curriculos/"
 # Caminho para o arquivo JSON
 CONSULTAS_DIR = "consultas/"
+
 
 prompts_list = ["Qual é a quantidade e a qualidade dos artigos publicados pelo pesquisador em periódicos indexados de alto impacto?", "As publicações estão concentradas em revistas ou conferências de relevância na área de atuação?", "Qual é o número de citações dos artigos do pesquisador em bases como Scopus ou Google Scholar?",
              "O pesquisador possui índice h (h-index) ou outros indicadores de impacto significativo na sua área?", "O pesquisador já liderou ou participou como proponente de projetos financiados por agências de fomento?", "Qual é o histórico do pesquisador em atrair recursos de pesquisa por meio de editais competitivos?",
@@ -36,12 +72,16 @@ curriculo_processado = process_resume(os.path.join(CURRICULO_DIR, "Alba Cristina
 data = buscar_chave(curriculo_processado, 'PRODUCAO-BIBLIOGRAFICA')
 
 
-categoria = prompt_categorizer(prompts_list[0])
+#categoria = prompt_categorizer(prompts_list[0])
 
 # Extrai tags associadas à categoria
-tags_relacionadas = extract_prompt_tags(categoria)
+#tags_relacionadas = extract_prompt_tags(categoria)
 
 # Codificador de tokens
-encoder = tiktoken.encoding_for_model("gpt-4o-mini-2024-07-18")
+#encoder = tiktoken.encoding_for_model("gpt-4o-mini-2024-07-18")
 
-f = final_response_generator_log(prompts_list[0], curriculo_processado, 122000)
+for i in prompts_list :
+    final_response_generator_debug(i, curriculo_processado, 122000)
+
+# print(get_json_data_types(curriculo_processado))
+# {'list', 'str', 'dict', 'null'}
