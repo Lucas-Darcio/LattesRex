@@ -150,33 +150,43 @@ def final_response_generator_log(prompt, dict_cv, max_context_request, curriculo
         # conteudo da tag em string
         str_content_tag = str(content_tag_rel)
         
+        #encoded do context_request
+        context_request_encoded = encoder.encode(context_request)
+        tokens_antes = len(context_request_encoded)
+        log(f"Tokens no contexto atual: {tokens_antes}")
+        
+        
         # Codifica a string para contar os tokens
         content_tag_encoded = encoder.encode(str_content_tag)
         tokens_tag = len(content_tag_encoded)
         log(f"Tokens do conteudo da tag extraido: {tokens_tag}")
         
-        #encoded do context_request
-        context_request_encoded = encoder.encode(context_request)
-        tokens_antes = len(context_request_encoded)
-        log(f"Tokens no contexto atual: {tokens_antes}")
 
 
         # Trunca uma tag se ela sozinha é maior que o contexto
         while(tokens_tag >= max_context_request):
             log(f"Tokens da tag maior que o maximo de contexto, Trunca ela")
             # verica quanto falta para o context_request para ter o tamanho maximo
-            left = max_context_request-tokens_tag
+            left = max_context_request - tokens_antes
             log(f"Espaço restante no contexto: {left}")
             
             # separa o encoded da tag nova
             first_part_encoded = content_tag_encoded[:left - 10]
+            log(f"Tamanho no first_part_encoded: {len(first_part_encoded)}")
+            
             second_part_encoded = content_tag_encoded[left - 10:]
+            log(f"Tamanho no second_part_encoded: {len(second_part_encoded)}")
+            
+            
             
             # Adiciona a primeira parte para o que resta de espaço no context_request e envia a request
             first_part_decoded = encoder.decode(first_part_encoded)
             context_request+=first_part_decoded
+            log(f"Tamanho no contexto apos adicionar a parte inicial da seção truncada: {len(encoder.encode(context_request))}")
+            
             resposta = partial_request(prompt, context_request)
             responses.append(resposta)
+            
             log(f"primeira seção da tag adicionada no contexto e enviada ao partial request")
             context_request = ""
             

@@ -51,8 +51,7 @@ def get_types_from_json_file(filename):
 
 # Diretório onde os currículos armazenados ficam
 CURRICULO_DIR = "curriculos/"
-# Caminho para o arquivo JSON
-CONSULTAS_DIR = "consultas/"
+
 
 
 prompts_list = [
@@ -94,11 +93,14 @@ prompts_list = [
 # {'list', 'str', 'dict', 'null'}
 
 #questions_categories = []
-curriculo_name = "Alba Cristina Magalhães Alves de Melo.xml"
+curriculo_name = "André Carlos Ponce de Leon Ferreira de Carvalho.xml"
 
 curriculo_processado = process_resume(os.path.join(CURRICULO_DIR, curriculo_name))   
 
 #final_response_generator_log(prompts_list[6], curriculo_processado, 122000)
 
-for i in prompts_list :
-    final_response_generator_log(i, curriculo_processado, 122000, curriculo_name)
+"Qual é a quantidade e a qualidade dos artigos publicados pelo pesquisador em periódicos indexados de alto impacto?"
+final_response_generator_log("Qual é a quantidade e a qualidade dos artigos publicados pelo pesquisador em periódicos indexados de alto impacto?", curriculo_processado, 122000, curriculo_name)
+
+#for i in prompts_list :
+    #final_response_generator_log(i, curriculo_processado, 122000, curriculo_name)
