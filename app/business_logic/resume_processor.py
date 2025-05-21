@@ -6,12 +6,6 @@ def process_resume(file):
     try:
         resume_data = xml_to_dict(file)
 
-        # tree = ET.parse(file)
-        # root = tree.getroot()
-
-        # for child in root:
-        #     resume_data[child.tag] = child.text
-        
         return resume_data
     except Exception as e:
         print(f"Error processing resume: {e}")
