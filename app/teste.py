@@ -54,7 +54,7 @@ CURRICULO_DIR = "curriculos/"
 
 
 
-prompts_list = [
+prompts_list_1 = [
             "Qual é a quantidade e a qualidade dos artigos publicados pelo pesquisador em periódicos indexados de alto impacto?",
             "As publicações estão concentradas em revistas ou conferências de relevância na área de atuação?",
             "Qual é o número de citações dos artigos do pesquisador em bases como Scopus ou Google Scholar?",
@@ -75,32 +75,37 @@ prompts_list = [
             "Ele já recebeu prêmios ou reconhecimentos por sua contribuição científica?"
             ]
 
+prompt_list_2 = [
+            "Qual é a quantidade de artigos publicados pelo pesquisador em periódicos indexados, e quantos deles estão em periódicos classificados nos estratos A1 ou A2 da área pela plataforma Qualis?",
+            "As publicações do pesquisador estão concentradas em revistas ou conferências indexadas em bases como Scopus, Web of Science ou classificadas nos níveis A1/A2 do Qualis da área?",
+            "Quantas citações os artigos do pesquisador receberam em bases como Scopus, Web of Science ou Google Scholar, considerando também a média de citações por artigo?",
+            "Qual é o valor do índice h (h-index) do pesquisador em bases como Scopus ou Google Scholar, e como ele se compara com a média de sua área de atuação?",
+            "Quantos projetos de pesquisa com financiamento aprovado o pesquisador já coordenou ou participou como proponente, e quais foram as respectivas agências financiadoras (ex.: CNPq, Fapesp, CAPES)?",
+            "Qual foi o valor total de recursos de pesquisa captados pelo pesquisador nos últimos cinco anos por meio de editais de agências públicas ou privadas?",
+            "Quantos alunos de mestrado, doutorado e iniciação científica o pesquisador orientou e quantos desses já concluíram suas respectivas formações?",
+            "Quantas publicações ou apresentações em eventos científicos foram realizadas por alunos orientados pelo pesquisador, e quantas dessas ocorreram em eventos ou periódicos indexados?",
+            "O pesquisador orientou quantos trabalhos de conclusão de curso (TCC) ou projetos de pesquisa de graduação nos últimos cinco anos?",
+            "Quantos dos alunos orientados pelo pesquisador seguiram carreira acadêmica (ex.: ingresso em pós-graduação) ou foram empregados em áreas relacionadas à sua formação?",
+            "Em quantas redes de colaboração científica nacionais ou internacionais o pesquisador participa formalmente, como projetos interinstitucionais ou consórcios de pesquisa?",
+            "Quantos artigos ou projetos o pesquisador desenvolveu em coautoria com docentes ou pesquisadores de outras instituições, e quantos desses coautores possuem produtividade reconhecida (ex.: bolsa PQ do CNPq ou produção qualificada)?",
+            "Quais cargos administrativos o pesquisador já ocupou, como coordenação de curso, chefia de departamento, direção de unidade acadêmica ou coordenação de programa de pós-graduação stricto sensu?",
+            "O pesquisador lidera grupos de pesquisa certificados pelo CNPq, e com quantos membros ativos esse grupo conta atualmente?",
+            "Há registros documentados (ex.: relatórios, notícias, parcerias institucionais) de que os resultados das pesquisas do pesquisador foram utilizados em políticas públicas, desenvolvimento tecnológico ou ações sociais?",
+            "Quantos registros de patentes, softwares, protótipos, cultivares ou outros produtos tecnológicos o pesquisador possui junto ao INPI, SUFRAMA ou outras instituições oficiais?",
+            "Quantas vezes o pesquisador foi convidado como palestrante ou conferencista em eventos científicos nacionais ou internacionais com processo seletivo ou curadoria institucional?",
+            "Quantos prêmios, menções honrosas ou títulos o pesquisador recebeu por sua atuação científica, técnica ou acadêmica, e quais instituições concederam tais reconhecimentos?"
+]
 
 
-#stored_resumes = list_curriculos(CURRICULO_DIR)
-#data = buscar_chave(curriculo_processado, 'PRODUCAO-BIBLIOGRAFICA')
-#categoria = prompt_categorizer(prompts_list[0])
 
-# Extrai tags associadas à categoria
-#tags_relacionadas = extract_prompt_tags(categoria)
-
-# Codificador de tokens
-#encoder = tiktoken.encoding_for_model("gpt-4o-mini-2024-07-18")
-
-
-
-# print(get_json_data_types(curriculo_processado))
-# {'list', 'str', 'dict', 'null'}
-
-#questions_categories = []
-curriculo_name = "André Carlos Ponce de Leon Ferreira de Carvalho.xml"
-
+curriculo_name = "Alba Cristina Magalhães Alves de Melo.xml"
 curriculo_processado = process_resume(os.path.join(CURRICULO_DIR, curriculo_name))   
 
-#final_response_generator_log(prompts_list[6], curriculo_processado, 122000)
 
-"Qual é a quantidade e a qualidade dos artigos publicados pelo pesquisador em periódicos indexados de alto impacto?"
-final_response_generator_log("Qual é a quantidade e a qualidade dos artigos publicados pelo pesquisador em periódicos indexados de alto impacto?", curriculo_processado, 122000, curriculo_name)
+for i in prompt_list_2:
+    final_response_generator_log(i, curriculo_processado, 122000, curriculo_name)
+    
+
 
 #for i in prompts_list :
     #final_response_generator_log(i, curriculo_processado, 122000, curriculo_name)

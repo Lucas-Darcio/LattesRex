@@ -107,7 +107,7 @@ def final_response_generator(prompt, dict_cv, max_context_request):
 # Função auxiliar para registrar no log
 def log(msg):
     # Caminho fixo para o arquivo de log de debug
-    log_path = os.path.join(os.getcwd(), "debug_log_02.txt")
+    log_path = os.path.join(os.getcwd(), "debug_log_04.txt")
     with open(log_path, "a", encoding="utf-8") as f:
         f.write(f"[{datetime.now().strftime('%H:%M:%S')}] {msg}\n")
 
