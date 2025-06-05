@@ -1,5 +1,6 @@
 import os
 from openai import OpenAI
+from google import genai
 from dotenv import load_dotenv
 
 load_dotenv()  # Carrega as variáveis de ambiente
@@ -105,7 +106,7 @@ em qual categoria ela se encaixa melhor.
     **Significado:**  
     Define os campos científicos, tecnológicos ou artísticos nos quais o profissional atua, baseando-se em classificações como a da CAPES ou do CNPq.
     **Tags associadas:**
-    ["#AREAS-DE-ATUACAO", "#PREMIOS-E-TITULOS"]
+    ["#AREAS-DE-ATUACAO", "#PREMIOS-E-TITULOS", "#PREMIOS-TITULOS"]
     
 3. **Formação Acadêmica e Qualificações**  
     **Significado:**  
@@ -189,3 +190,71 @@ Saída:
     )
     
     return completion.choices[0].message.content
+
+def gpt_request(prompt: str, curriculo: str):
+    client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
+    
+    system = f"""
+Você é um assistente especializado na análise de currículos acadêmicos.
+
+Sua tarefa é gerar uma resposta única, clara, precisa e bem estruturada que atenda completamente ao prompt do usuário, utilizando apenas as informações fornecidas no currículo.
+
+Instruções:
+
+- Leia com atenção o currículo.
+- Consolide as informações relevantes, eliminando repetições e redundâncias.
+- Respeite o conteúdo: não invente ou assuma nada que não esteja explícito no currículo.
+- Se houver contradições ou ambiguidade, destaque com cautela.
+- A resposta final deve ser coerente, fluida e adequada ao nível de detalhe e linguagem esperados em uma análise acadêmica.
+- Caso os dados do currículo sejam insuficientes, você pode incluir uma observação final indicando a limitação.
+
+---
+
+🔹 Prompt original do usuário:
+{prompt}
+
+🔹 Currículo:
+{curriculo}
+"""
+
+    completion = client.chat.completions.create(
+        model="gpt-4o-mini-2024-07-18",
+        messages=[
+            {"role": "developer", "content": system}
+        ]
+    )
+    return completion.choices[0].message.content
+
+
+
+def gemini_request(prompt: str, curriculo: str):
+    client = genai.Client(api_key="AIzaSyDd4Byvn53n52Yyqe8nC2Q9hYP18pcsVJA")
+    
+    system = f"""
+Você é um assistente especializado na análise de currículos acadêmicos.
+
+Sua tarefa é gerar uma resposta única, clara, precisa e bem estruturada que atenda completamente ao prompt do usuário, utilizando apenas as informações fornecidas no currículo.
+
+Instruções:
+
+- Leia com atenção o currículo.
+- Consolide as informações relevantes, eliminando repetições e redundâncias.
+- Respeite o conteúdo: não invente ou assuma nada que não esteja explícito no currículo.
+- Se houver contradições ou ambiguidade, destaque com cautela.
+- A resposta final deve ser coerente, fluida e adequada ao nível de detalhe e linguagem esperados em uma análise acadêmica.
+- Caso os dados do currículo sejam insuficientes, você pode incluir uma observação final indicando a limitação.
+- Se precisar pesquise na internet
+---
+
+🔹 Prompt original do usuário:
+{prompt}
+
+🔹 Currículo:
+{curriculo}
+"""
+
+    response = client.models.generate_content(
+        model="gemini-2.0-flash-lite",
+        contents=system
+    )
+    return response.text

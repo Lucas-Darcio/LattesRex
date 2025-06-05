@@ -13,9 +13,11 @@ CURRICULO_DIR = "curriculos/"
 
 
 def main():
+    logo_path = os.path.join(os.path.dirname(__file__), "logo_app_dark.png")
     st.set_page_config(
         page_title="Converse com o currículo",
-        layout="wide"
+        layout="wide",
+        page_icon=logo_path
     )
 
     st.title("Converse com o currículo")
@@ -25,8 +27,10 @@ def main():
 
     # disable_chat_bool = True
     curriculo_name = ""
-
+    #st.sidebar.image(logo_path)
     with st.sidebar:
+            
+        st.image(logo_path, width=200)
 
         passos = '''1 - Envie ou selecione um currículo no formato XML.   
         2 - Confirme a seleção de currículo para que ele vá para o contexto.   
@@ -59,7 +63,9 @@ def main():
         if st.button("Confirmar currículo", type="primary"):
             # Escolha final do currículo: preferindo o upload se houver
             st.session_state.disable_chat_bool = not st.session_state.disable_chat_bool
-
+    
+    
+    
     if not st.session_state.disable_chat_bool:
         st.warning(f"curriculo {curriculo_name} carregado!")
 

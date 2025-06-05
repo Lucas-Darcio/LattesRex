@@ -2,7 +2,11 @@ import os
 import sys
 import streamlit as st
 import json
+import time
 import tiktoken
+import shutil
+from datetime import datetime
+
 
 # Adiciona o diretório raiz ao PYTHONPATH
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
@@ -11,7 +15,7 @@ from app.business_logic.query_handler import  final_response_generator_log, extr
 #from app.api.openai_api import extract_related_tags
 from app.business_logic.resume_processor import process_resume
 from app.data_access.file_manager import list_curriculos
-from app.api.openai_api import partial_request, final_request, prompt_categorizer
+from app.api.openai_api import partial_request, final_request, prompt_categorizer, gpt_request, gemini_request
 from app.business_logic.compression_utils import extract_prompt_tags
 
 import json
@@ -98,14 +102,98 @@ prompt_list_2 = [
 
 
 
-curriculo_name = "Alba Cristina Magalhães Alves de Melo.xml"
-curriculo_processado = process_resume(os.path.join(CURRICULO_DIR, curriculo_name))   
+def processar_pastas(pasta_base):
+    # Garante que o caminho seja absoluto
+    pasta_base = os.path.abspath(pasta_base)
+
+    # Itera por todos os itens na pasta base
+    for nome_pasta in os.listdir(pasta_base):
+        caminho_pasta = os.path.join(pasta_base, nome_pasta)
+
+        # Verifica se é uma pasta
+        if os.path.isdir(caminho_pasta):
+            arquivos = os.listdir(caminho_pasta)
+
+            # Verifica se há exatamente um arquivo na pasta
+            if len(arquivos) == 1:
+                nome_arquivo_original = arquivos[0]
+                caminho_arquivo_original = os.path.join(caminho_pasta, nome_arquivo_original)
+
+                # Define o novo nome com base no nome da pasta
+                novo_nome_arquivo = nome_pasta + ".xml"
+                novo_caminho_arquivo = os.path.join(pasta_base, novo_nome_arquivo)
+
+                # Move e renomeia o arquivo para a pasta base
+                shutil.move(caminho_arquivo_original, novo_caminho_arquivo)
+
+                # Remove a pasta vazia
+                os.rmdir(caminho_pasta)
+            else:
+                print(f"Pasta '{nome_pasta}' não contém exatamente um arquivo. Ignorada.")
 
 
-for i in prompt_list_2:
-    final_response_generator_log(i, curriculo_processado, 122000, curriculo_name)
-    
+def verifica_tamanho(pasta_base):
+    # Define o codificador de tokens
+    encoder = tiktoken.encoding_for_model("gpt-4o-mini-2024-07-18")
+    # Garante que o caminho seja absoluto
+    pasta_base = os.path.abspath(pasta_base)
+    # Itera por todos os itens na pasta base
+    for arquivo_nome in os.listdir(pasta_base):
+        curriculo_processado = process_resume(os.path.join(pasta_base, arquivo_nome))
+        str_curriculo = json.dumps(curriculo_processado)
+        tokenized_curriculo = encoder.encode(str_curriculo)
+        
+        if(len(tokenized_curriculo)< 122000):
+            print(arquivo_nome)
+        log_1(f"Arquivo: {arquivo_nome}")
+        log_1(f"Tamanho em tokens: {len(tokenized_curriculo)}\n")
+        
 
 
-#for i in prompts_list :
-    #final_response_generator_log(i, curriculo_processado, 122000, curriculo_name)
+
+
+prompt_list_3 = [
+"A pesquisadora Marina Legroski possui alguma conta na rede social twitter/x, pesquise na internet"
+]
+
+# curriculo_processado = process_resume("/home/lucasdarcio/home/pibic_prim/PIBIC-Chatbot-App/curriculos/Altigran Soares da Silva.xml")
+# str_curri = str(curriculo_processado)
+# encoder = tiktoken.encoding_for_model("gpt-4o-mini-2024-07-18")
+# encoded_curriculo = encoder.encode(str_curri)
+# print(len(encoded_curriculo))
+
+# Função auxiliar para registrar no log
+def log_1(msg, file_name="Log_Chats.txt"):
+    # Caminho fixo para o arquivo de log de debug
+    log_path = os.path.join(os.getcwd(), file_name)
+    with open(log_path, "a", encoding="utf-8") as f:
+        f.write(f"[{datetime.now().strftime('%H:%M:%S')}] {msg}\n")
+        
+#"Tayana Uchoa Conte", 
+curriculos = ["Marina Chiara Legroski"]
+
+for c in curriculos:
+    curriculo_processado = process_resume("/home/lucasdarcio/home/pibic_prim/PIBIC-Chatbot-App/curriculos/"+c+".xml")
+
+    for i in prompt_list_3:
+        while True:
+            log_1(f"Prompt: {i}", file_name="gemini-"+c+".txt")
+            try:
+                print("resposta do gemini sendo processada")
+                response = gemini_request(i, json.dumps(curriculo_processado))
+                log_1(f"Resposta:\n{response}", file_name="gemini-"+c+".txt")
+                print("respostas do gemini terminada")
+                break
+
+            except Exception as e:
+                print("erro ao chamar o gemini")
+                log_1(f"Erro ao chamar o Gemini: {e}", file_name="gemini-"+c+".txt")
+            
+            #time.sleep(210)
+        
+    for i in prompt_list_3:
+        log_1(f"Prompt: {i}", file_name="arquitetura-"+c+".txt")
+        print(f"Arquivo: {"arquitetura-"+c+".txt"} criado, começando o processamento da arquitetura")
+        resp_arqu = final_response_generator_log(i, curriculo_processado, 122000, c)
+        print(f"Processamento terminado")
+        log_1(f"Respostas: {resp_arqu}", file_name="arquitetura-"+c+".txt")

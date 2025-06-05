@@ -1,0 +1,118 @@
+[12:23:39] Prompt: Qual é a quantidade de artigos publicados pelo pesquisador em periódicos indexados, e quantos deles estão em periódicos classificados nos estratos A1 ou A2 da área pela plataforma Qualis?
+[12:23:48] Resposta:
+A pesquisadora Marina Chiara Legroski publicou 17 artigos em periódicos. O currículo não apresenta informações sobre a classificação Qualis dos periódicos.
+
+**Observação:** A ausência de dados sobre a classificação Qualis dos periódicos impede a identifica\u00e7\u00e3o do n\u00famero de artigos publicados em estratos espec\u00edficos (A1 ou A2).
+
+[12:25:48] Prompt: As publicações do pesquisador estão concentradas em revistas ou conferências indexadas em bases como Scopus, Web of Science ou classificadas nos níveis A1/A2 do Qualis da área?
+[12:25:57] Resposta:
+A pesquisadora Marina Chiara Legroski tem como foco de suas publicações a área de Semântica. As publicações da pesquisadora est\u00e3o concentradas em revistas e eventos nacionais e internacionais, como o VII Congresso Internacional da Abralin e o XI Workshop on Formal Linguistics. Al\u00e9m disso, possui artigos publicados em peri\u00f3dicos como a Revista Muitos Vozes e Estudos Ling\u00fc\u00edsticos (S\u00e3o Paulo. 1978).
+
+**Observação:** O currículo não informa se as revistas e eventos mencionados são indexados em bases como Scopus, Web of Science ou classificados nos níveis A1/A2 do Qualis da área.
+
+[12:27:57] Prompt: Quantas citações os artigos do pesquisador receberam em bases como Scopus, Web of Science ou Google Scholar, considerando também a média de citações por artigo?
+[12:28:03] Resposta:
+Com base no currículo fornecido, a pesquisadora Marina Chiara Legroski não informa o número de citações recebidas por seus artigos em bases como Scopus, Web of Science ou Google Scholar, nem a média de citações por artigo.
+
+
+[12:30:03] Prompt: Qual é o valor do índice h (h-index) do pesquisador em bases como Scopus ou Google Scholar, e como ele se compara com a média de sua área de atuação?
+[12:30:12] Resposta:
+A análise do currículo de Marina Chiara Legroski não permite determinar o valor de seu índice h (h-index) em bases de dados como Scopus ou Google Scholar, nem como ele se compara à média da sua área de atuação.
+
+**Observação:** A ausência desses dados no currículo limita a possibilidade de fornecer a informação solicitada.
+
+[12:32:12] Prompt: Quantos projetos de pesquisa com financiamento aprovado o pesquisador já coordenou ou participou como proponente, e quais foram as respectivas agências financiadoras (ex.: CNPq, Fapesp, CAPES)?
+[12:32:22] Resposta:
+A pesquisadora Marina Chiara Legroski já coordenou ou participou como proponente em dois projetos de pesquisa com financiamento aprovado:
+
+1.  **CNPq:** Financiamento para a dissertação de mestrado (2009-2011).
+2.  **CAPES:** Financiamento para o doutorado (2011-2015).
+
+
+[12:34:22] Prompt: Qual foi o valor total de recursos de pesquisa captados pelo pesquisador nos últimos cinco anos por meio de editais de agências públicas ou privadas?
+[12:34:31] Resposta:
+Com base no currículo, não é possível determinar o valor total de recursos de pesquisa captados pela pesquisadora nos últimos cinco anos por meio de editais de agências públicas ou privadas. O documento não apresenta essa informação.
+
+[12:36:31] Prompt: Quantos alunos de mestrado, doutorado e iniciação científica o pesquisador orientou e quantos desses já concluíram suas respectivas formações?
+[12:36:42] Resposta:
+A professora Dra. Marina Chiara Legroski orientou os seguintes alunos:
+
+*   **Mestrado:** 1
+*   **Gradua\u00e7\u00e3o:** 2
+
+No momento, n\u00e3o \u00e9 poss\u00edvel determinar quantos alunos conclu\u00edram seus cursos, pois n\u00e3o h\u00e1 informa\u00e7\u00f5es sobre a conclus\u00e3o dos cursos de mestrado e gradua\u00e7\u00e3o dos alunos.
+
+[12:38:42] Prompt: Quantas publicações ou apresentações em eventos científicos foram realizadas por alunos orientados pelo pesquisador, e quantas dessas ocorreram em eventos ou periódicos indexados?
+[12:38:49] Resposta:
+Com base nas informações do currículo, os alunos orientados por Marina Chiara Legroski realizaram as seguintes atividades:
+
+*   **Orientações em andamento:** 2 (um de mestrado e um de graduação).
+*   **Trabalhos de conclusão de curso de graduação concluídos:** 9.
+*   **Monografias de conclus\u00e3o de curso de aperfei\u00e7oamento e especializa\u00e7\u00e3o conclu\u00eddas:** 3.
+*   **Inicia\u00e7\u00e3o cient\u00edfica conclu\u00edda:** 3.
+*   **Disserta\u00e7\u00f5es de mestrado conclu\u00eddas:** 1.
+*   **Artigos publicados:** Nenhum artigo publicado por alunos orientados foi identificado.
+*   **Apresenta\u00e7\u00f5es em eventos:** 3 trabalhos de conclusão de curso de graduação e uma dissertação de mestrado.
+
+**Observação:** O currículo não detalha se as apresentações em eventos ocorreram em eventos ou periódicos indexados.
+[12:40:49] Prompt: O pesquisador orientou quantos trabalhos de conclusão de curso (TCC) ou projetos de pesquisa de graduação nos últimos cinco anos?
+[12:40:58] Resposta:
+Com base nas informações fornecidas no currículo, a pesquisadora Marina Chiara Legroski orientou um trabalho de conclusão de curso (TCC) de graduação nos últimos cinco anos.
+
+**Observação:** O currículo não apresenta dados suficientes para quantificar os TCCs ou projetos de pesquisa de graduação orientados nos últimos cinco anos.
+
+[12:42:58] Prompt: Quantos dos alunos orientados pelo pesquisador seguiram carreira acadêmica (ex.: ingresso em pós-graduação) ou foram empregados em áreas relacionadas à sua formação?
+[12:43:05] Resposta:
+Com base nas informações fornecidas no currículo, a professora Marina Chiara Legroski orientou alunos que seguiram carreira acadêmica ou foram empregados em áreas relacionadas à sua formação. No entanto, o currículo não especifica a quantidade exata de alunos que se enquadram nessas categorias.
+
+Observação: A ausência de dados quantitativos no currículo limita a precisão da resposta.
+[12:45:05] Prompt: Em quantas redes de colaboração científica nacionais ou internacionais o pesquisador participa formalmente, como projetos interinstitucionais ou consórcios de pesquisa?
+[12:45:15] Resposta:
+A pesquisadora Marina Chiara Legroski participa formalmente de dois projetos de pesquisa em andamento, um nacional e outro que não especifica a abrangência.
+
+Observação: O currículo não informa se h\u00e1 participação em consórcios de pesquisa.
+
+[12:47:15] Prompt: Quantos artigos ou projetos o pesquisador desenvolveu em coautoria com docentes ou pesquisadores de outras instituições, e quantos desses coautores possuem produtividade reconhecida (ex.: bolsa PQ do CNPq ou produção qualificada)?
+[12:47:21] Resposta:
+A pesquisadora Marina Chiara Legroski desenvolveu trabalhos em coautoria com docentes e pesquisadores de outras instituições, mas o currículo não apresenta o número exato de artigos ou projetos realizados sob essa forma de colaboração.
+
+**Observação:** O currículo não informa quais coautores possuem produtividade reconhecida (ex.: bolsa PQ do CNPq ou produ\u00e7\u00e3o qualificada).
+
+[12:49:21] Prompt: Quais cargos administrativos o pesquisador já ocupou, como coordenação de curso, chefia de departamento, direção de unidade acadêmica ou coordenação de programa de pós-graduação stricto sensu?
+[12:49:29] Resposta:
+A pesquisadora Marina Chiara Legroski atuou como professora adjunta na Universidade Federal do Paraná (2024-presente). Entre 2015 e 2024, foi professora adjunta na Universidade Estadual de Ponta Grossa. A pesquisadora não consta ter ocupado cargos administrativos como coordenação de curso, chefia de departamento, direção de unidade acadêmica ou coordenação de programa de pós-graduação stricto sensu.
+
+Observação: Os dados do currículo não fornecem informações sobre atividades administrativas da pesquisadora.
+[12:51:29] Prompt: O pesquisador lidera grupos de pesquisa certificados pelo CNPq, e com quantos membros ativos esse grupo conta atualmente?
+[12:51:37] Resposta:
+A pesquisadora Marina Chiara Legroski lidera dois projetos de pesquisa. Atualmente, um desses projetos conta com 3 membros ativos, incluindo a pesquisadora como responsável.
+
+Observação: O currículo não informa quantos membros ativos compõem o outro projeto de pesquisa liderado por Marina Chiara Legroski.
+
+[12:53:37] Prompt: Há registros documentados (ex.: relatórios, notícias, parcerias institucionais) de que os resultados das pesquisas do pesquisador foram utilizados em políticas públicas, desenvolvimento tecnológico ou ações sociais?
+[12:53:44] Resposta:
+A partir da an\u00e1lise do curr\u00edculo, n\u00e3o foram identificados registros documentados de que os resultados das pesquisas da pesquisadora foram utilizados em pol\u00edticas p\u00fablicas, desenvolvimento tecnol\u00f3gico ou a\u00e7\u00f5es sociais.
+
+**Observa\u00e7\u00e3o:** A aus\u00eancia de informa\u00e7\u00f5es sobre o uso dos resultados de pesquisa pode ser devido \u00e0 falta de detalhamento no curr\u00edculo.
+
+[12:55:44] Prompt: Quantos registros de patentes, softwares, protótipos, cultivares ou outros produtos tecnológicos o pesquisador possui junto ao INPI, SUFRAMA ou outras instituições oficiais?
+[12:55:54] Resposta:
+A pesquisadora Marina Chiara Legroski não possui registros de patentes, softwares, protótipos, cultivares ou outros produtos tecnológicos junto ao INPI, SUFRAMA ou outras instituições oficiais, conforme o currículo fornecido.
+
+Observação: O currículo apresentado não contém informações sobre a existência de produtos tecnológicos.
+
+[12:57:54] Prompt: Quantas vezes o pesquisador foi convidado como palestrante ou conferencista em eventos científicos nacionais ou internacionais com processo seletivo ou curadoria institucional?
+[12:58:01] Resposta:
+A pesquisadora Marina Chiara Legroski foi convidada como palestrante ou conferencista em um evento científico internacional. O currículo não apresenta dados sobre eventos científicos nacionais com processo seletivo ou curadoria institucional.
+
+Observação: O currículo não fornece informa\u00e7\u00f5es detalhadas sobre os eventos, como o processo de sele\u00e7\u00e3o ou curadoria.
+[13:00:01] Prompt: Quantos prêmios, menções honrosas ou títulos o pesquisador recebeu por sua atuação científica, técnica ou acadêmica, e quais instituições concederam tais reconhecimentos?
+[13:00:11] Resposta:
+A pesquisadora Marina Chiara Legroski recebeu os seguintes reconhecimentos por sua atuação científica, técnica ou acadêmica:
+
+*   **2016**: Publicação de um artigo na revista "Mega Curioso".
+*   **2017**: Participa\u00e7\u00e3o em uma entrevista em um programa de r\u00e1dio chamado "Anticast".
+*   **2023**: Participa\u00e7\u00e3o em uma entrevista em um programa de r\u00e1dio chamado "Podcast".
+*   **2024**: Participa\u00e7\u00e3o em uma entrevista em um programa de r\u00e1dio chamada "R\u00e1dio Mais Digital".
+
+Os reconhecimentos foram concedidos atrav\u00e9s de publica\u00e7\u00f5es ou participa\u00e7\u00f5es em programas de r\u00e1dio. As institui\u00e7\u00f5es respons\u00e1veis por tais reconhecimentos incluem o "Portal Mega Curioso", um "Podcast" e uma "Radiodifus\u00e3o".

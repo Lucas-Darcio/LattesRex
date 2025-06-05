@@ -3,4 +3,4 @@ openai
 streamlit
 python-dotenv
 tiktoken
-
+google-genai

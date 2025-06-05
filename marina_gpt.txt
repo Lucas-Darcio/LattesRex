@@ -1,0 +1,54 @@
+[19:15:38] Pergunta: Qual é a quantidade de artigos publicados pelo pesquisador em periódicos indexados, e quantos deles estão em periódicos classificados nos estratos A1 ou A2 da área pela plataforma Qualis?
+[19:15:40] Resposta:Erro ao chamar o Gpt: 
+Error code: 400 - {'error': {'message': "This model's maximum context length is 128000 tokens. However, your messages resulted in 138146 tokens. Please reduce the length of the messages.", 'type': 'invalid_request_error', 'param': 'messages', 'code': 'context_length_exceeded'}}
+[19:15:52] Pergunta: As publicações do pesquisador estão concentradas em revistas ou conferências indexadas em bases como Scopus, Web of Science ou classificadas nos níveis A1/A2 do Qualis da área?
+[19:15:54] Resposta:Erro ao chamar o Gpt: 
+Error code: 400 - {'error': {'message': "This model's maximum context length is 128000 tokens. However, your messages resulted in 138146 tokens. Please reduce the length of the messages.", 'type': 'invalid_request_error', 'param': 'messages', 'code': 'context_length_exceeded'}}
+[19:16:13] Pergunta: Quantas citações os artigos do pesquisador receberam em bases como Scopus, Web of Science ou Google Scholar, considerando também a média de citações por artigo?
+[19:16:17] Resposta:Erro ao chamar o Gpt: 
+Error code: 400 - {'error': {'message': "This model's maximum context length is 128000 tokens. However, your messages resulted in 138139 tokens. Please reduce the length of the messages.", 'type': 'invalid_request_error', 'param': 'messages', 'code': 'context_length_exceeded'}}
+[19:16:28] Pergunta: Qual é o valor do índice h (h-index) do pesquisador em bases como Scopus ou Google Scholar, e como ele se compara com a média de sua área de atuação?
+[19:16:30] Resposta:Erro ao chamar o Gpt: 
+Error code: 400 - {'error': {'message': "This model's maximum context length is 128000 tokens. However, your messages resulted in 138143 tokens. Please reduce the length of the messages.", 'type': 'invalid_request_error', 'param': 'messages', 'code': 'context_length_exceeded'}}
+[19:16:38] Pergunta: Quantos projetos de pesquisa com financiamento aprovado o pesquisador já coordenou ou participou como proponente, e quais foram as respectivas agências financiadoras (ex.: CNPq, Fapesp, CAPES)?
+[19:16:41] Resposta:Erro ao chamar o Gpt: 
+Error code: 400 - {'error': {'message': "This model's maximum context length is 128000 tokens. However, your messages resulted in 138149 tokens. Please reduce the length of the messages.", 'type': 'invalid_request_error', 'param': 'messages', 'code': 'context_length_exceeded'}}
+[19:16:58] Pergunta: Qual foi o valor total de recursos de pesquisa captados pelo pesquisador nos últimos cinco anos por meio de editais de agências públicas ou privadas?
+[19:16:59] Resposta:Erro ao chamar o Gpt: 
+Error code: 400 - {'error': {'message': "This model's maximum context length is 128000 tokens. However, your messages resulted in 138136 tokens. Please reduce the length of the messages.", 'type': 'invalid_request_error', 'param': 'messages', 'code': 'context_length_exceeded'}}
+[19:17:06] Pergunta: Quantos alunos de mestrado, doutorado e iniciação científica o pesquisador orientou e quantos desses já concluíram suas respectivas formações?
+[19:17:08] Resposta:Erro ao chamar o Gpt: 
+Error code: 400 - {'error': {'message': "This model's maximum context length is 128000 tokens. However, your messages resulted in 138136 tokens. Please reduce the length of the messages.", 'type': 'invalid_request_error', 'param': 'messages', 'code': 'context_length_exceeded'}}
+[19:17:26] Pergunta: Quantas publicações ou apresentações em eventos científicos foram realizadas por alunos orientados pelo pesquisador, e quantas dessas ocorreram em eventos ou periódicos indexados?
+[19:17:28] Resposta:Erro ao chamar o Gpt: 
+Error code: 400 - {'error': {'message': "This model's maximum context length is 128000 tokens. However, your messages resulted in 138139 tokens. Please reduce the length of the messages.", 'type': 'invalid_request_error', 'param': 'messages', 'code': 'context_length_exceeded'}}
+[19:17:40] Pergunta: O pesquisador orientou quantos trabalhos de conclusão de curso (TCC) ou projetos de pesquisa de graduação nos últimos cinco anos?
+[19:17:42] Resposta:Erro ao chamar o Gpt: 
+Error code: 400 - {'error': {'message': "This model's maximum context length is 128000 tokens. However, your messages resulted in 138133 tokens. Please reduce the length of the messages.", 'type': 'invalid_request_error', 'param': 'messages', 'code': 'context_length_exceeded'}}
+[19:18:00] Pergunta: Quantos dos alunos orientados pelo pesquisador seguiram carreira acadêmica (ex.: ingresso em pós-graduação) ou foram empregados em áreas relacionadas à sua formação?
+[19:18:01] Resposta:Erro ao chamar o Gpt: 
+Error code: 400 - {'error': {'message': "This model's maximum context length is 128000 tokens. However, your messages resulted in 138139 tokens. Please reduce the length of the messages.", 'type': 'invalid_request_error', 'param': 'messages', 'code': 'context_length_exceeded'}}
+[19:18:24] Pergunta: Em quantas redes de colaboração científica nacionais ou internacionais o pesquisador participa formalmente, como projetos interinstitucionais ou consórcios de pesquisa?
+[19:18:25] Resposta:Erro ao chamar o Gpt: 
+Error code: 400 - {'error': {'message': "This model's maximum context length is 128000 tokens. However, your messages resulted in 138136 tokens. Please reduce the length of the messages.", 'type': 'invalid_request_error', 'param': 'messages', 'code': 'context_length_exceeded'}}
+[19:18:52] Pergunta: Quantos artigos ou projetos o pesquisador desenvolveu em coautoria com docentes ou pesquisadores de outras instituições, e quantos desses coautores possuem produtividade reconhecida (ex.: bolsa PQ do CNPq ou produção qualificada)?
+[19:18:54] Resposta:Erro ao chamar o Gpt: 
+Error code: 400 - {'error': {'message': "This model's maximum context length is 128000 tokens. However, your messages resulted in 138153 tokens. Please reduce the length of the messages.", 'type': 'invalid_request_error', 'param': 'messages', 'code': 'context_length_exceeded'}}
+[19:19:11] Pergunta: Quais cargos administrativos o pesquisador já ocupou, como coordenação de curso, chefia de departamento, direção de unidade acadêmica ou coordenação de programa de pós-graduação stricto sensu?
+[19:19:14] Resposta:Erro ao chamar o Gpt: 
+Error code: 400 - {'error': {'message': "This model's maximum context length is 128000 tokens. However, your messages resulted in 138147 tokens. Please reduce the length of the messages.", 'type': 'invalid_request_error', 'param': 'messages', 'code': 'context_length_exceeded'}}
+[19:19:37] Pergunta: O pesquisador lidera grupos de pesquisa certificados pelo CNPq, e com quantos membros ativos esse grupo conta atualmente?
+[19:19:39] Resposta:Erro ao chamar o Gpt: 
+Error code: 400 - {'error': {'message': "This model's maximum context length is 128000 tokens. However, your messages resulted in 138131 tokens. Please reduce the length of the messages.", 'type': 'invalid_request_error', 'param': 'messages', 'code': 'context_length_exceeded'}}
+[19:19:49] Pergunta: Há registros documentados (ex.: relatórios, notícias, parcerias institucionais) de que os resultados das pesquisas do pesquisador foram utilizados em políticas públicas, desenvolvimento tecnológico ou ações sociais?
+[19:19:50] Resposta:Erro ao chamar o Gpt: 
+Error code: 400 - {'error': {'message': "This model's maximum context length is 128000 tokens. However, your messages resulted in 138145 tokens. Please reduce the length of the messages.", 'type': 'invalid_request_error', 'param': 'messages', 'code': 'context_length_exceeded'}}
+[19:20:13] Pergunta: Quantos registros de patentes, softwares, protótipos, cultivares ou outros produtos tecnológicos o pesquisador possui junto ao INPI, SUFRAMA ou outras instituições oficiais?
+[19:20:15] Resposta:Erro ao chamar o Gpt: 
+Error code: 400 - {'error': {'message': "This model's maximum context length is 128000 tokens. However, your messages resulted in 138144 tokens. Please reduce the length of the messages.", 'type': 'invalid_request_error', 'param': 'messages', 'code': 'context_length_exceeded'}}
+[19:20:31] Pergunta: Quantas vezes o pesquisador foi convidado como palestrante ou conferencista em eventos científicos nacionais ou internacionais com processo seletivo ou curadoria institucional?
+[19:20:32] Resposta:Erro ao chamar o Gpt: 
+Error code: 400 - {'error': {'message': "This model's maximum context length is 128000 tokens. However, your messages resulted in 138138 tokens. Please reduce the length of the messages.", 'type': 'invalid_request_error', 'param': 'messages', 'code': 'context_length_exceeded'}}
+[19:20:40] Pergunta: Quantos prêmios, menções honrosas ou títulos o pesquisador recebeu por sua atuação científica, técnica ou acadêmica, e quais instituições concederam tais reconhecimentos?
+[19:20:42] Resposta:Erro ao chamar o Gpt: 
+Error code: 400 - {'error': {'message': "This model's maximum context length is 128000 tokens. However, your messages resulted in 138142 tokens. Please reduce the length of the messages.", 'type': 'invalid_request_error', 'param': 'messages', 'code': 'context_length_exceeded'}}
