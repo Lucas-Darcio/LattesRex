@@ -228,7 +228,7 @@ Instruções:
 
 
 def gemini_request(prompt: str, curriculo: str):
-    client = genai.Client(api_key="AIzaSyDd4Byvn53n52Yyqe8nC2Q9hYP18pcsVJA")
+    client = genai.Client(api_key=os.getenv("GEMINI_API_KEY"))
     
     system = f"""
 Você é um assistente especializado na análise de currículos acadêmicos.
