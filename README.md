@@ -13,8 +13,6 @@ O artigo está disponível em [📄 LattesRex.pdf](docs/LattesRex.pdf), as anál
 ---
 
 ## Sobre o Projeto
-Breve resumo do que foi desenvolvido.  
-Exemplo:  
 Esta aplicação tem como objetivo de interpretar e responder perguntas sobre CV Lattes para auxiliar na análise de currículos no contexto acadêmico, o sistema utiliza uma abordagem estruturada modular com inspirações em rag, utilizando metadados para estruturar o documento analisado. O foco da pesquisa estava disseminado no tratamento de dados do currículo, e avaliação da qualidade das respostas geradas sob olhar linguísta.
 
 ---
