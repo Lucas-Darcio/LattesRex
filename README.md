@@ -8,7 +8,7 @@ O projeto resultou na publicação do artigo científico:
 Autor(a/es): Lucas Darcio, Karina Soares Santos, Amanda Spellen, Esther Soares, Livy Real, Altigran Soares da Silva.  
 Submetido em: STIL 2025 - XVI Simpósio Brasileiro de Tecnologia da Informação e da Linguagem Humana.  
 
-O artigo está disponível em [📄 Dados_estruturados_e_LLM.pdf](docs/Dados_estruturados_e_LLM.pdf), as análises dos experimentos estão em [📂 AvaliacaoExperimentos](docs/AvaliacaoExperimentos), e por fim os prompts utilizados estão em [📝 prompts.txt](docs/prompts.txt).
+O artigo está disponível em [📄 Dados_estruturados_e_LLM.pdf](docs/LattesRex.pdf), as análises dos experimentos estão em [📂 AvaliacaoExperimentos](docs/AvaliacaoExperimentos), e por fim os prompts utilizados estão em [📝 prompts.txt](docs/prompts.txt).
 
 ---
 
