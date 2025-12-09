@@ -10,8 +10,8 @@ O projeto resultou na publicação do artigo científico:
 
 **LattesRex: Building ChatBots for Semi-Structured Documents**  
 Autor(a/es): Lucas Darcio, Karina Soares Santos, Amanda Spellen, Esther Soares, Livy Real, Altigran Soares da Silva.  
-Submetido em: STIL 2025 - XVI Simpósio Brasileiro de Tecnologia da Informação e da Linguagem Humana.  
-
+Publicado por: STIL 2025 - XVI Simpósio Brasileiro de Tecnologia da Informação e da Linguagem Humana.  
+Disponível em: [LattesRex: Building ChatBots for Semi-Structured Documents](https://sol.sbc.org.br/index.php/stil/article/view/37819)
 
 📄 [Artigo em PDF](docs/LattesRex.pdf)
 📂 [Avaliação dos Experimentos](docs/AvaliacaoExperimentos) 
@@ -44,6 +44,26 @@ Esta aplicação tem como objetivo de interpretar e responder perguntas sobre CV
 Este repositório contém o código referente ao artigo científico citado acima.
 Se utilizar este projeto em trabalhos acadêmicos, favor citar o artigo.
 
+BibTeX:
+```bash
+
+@inproceedings{stil,
+ author = {Lucas Darcio and Karina Santos and Amanda Spellen and Esther Soares and Livy Real and Altigran Silva},
+ title = { LattesRex: Building ChatBots for Semi-Structured Documents},
+ booktitle = {Anais do XVI Simpósio Brasileiro de Tecnologia da Informação e da Linguagem Humana},
+ location = {Fortaleza/CE},
+ year = {2025},
+ keywords = {},
+ issn = {0000-0000},
+ pages = {125--136},
+ publisher = {SBC},
+ address = {Porto Alegre, RS, Brasil},
+ doi = {10.5753/stil.2025.37819},
+ url = {https://sol.sbc.org.br/index.php/stil/article/view/37819}
+}
+
+```
+
 ---
 
 ## 🇬🇧 English
@@ -55,7 +75,8 @@ The project resulted in the publication of the scientific paper:
 
 **LattesRex: Building ChatBots for Semi-Structured Documents**
 Authors: Lucas Darcio, Karina Soares Santos, Amanda Spellen, Esther Soares, Livy Real, Altigran Soares da Silva.
-Submitted to: STIL 2025 – XVI Brazilian Symposium in Information and Human Language Technology.
+Published by: STIL 2025 – XVI Brazilian Symposium in Information and Human Language Technology.
+Available at: [LattesRex: Building ChatBots for Semi-Structured Documents](https://sol.sbc.org.br/index.php/stil/article/view/37819)
 
 
 📄 [Full Paper (PDF)](docs/LattesRex.pdf)  
@@ -88,3 +109,22 @@ This application aims to interpret and answer questions regarding Lattes CVs, su
 ### Relation to the Paper
 This repository contains the code associated with the scientific paper mentioned above.
 If you use this project in academic work, please cite the paper.
+
+BibTeX:
+```bash
+
+@inproceedings{stil,
+ author = {Lucas Darcio and Karina Santos and Amanda Spellen and Esther Soares and Livy Real and Altigran Silva},
+ title = { LattesRex: Building ChatBots for Semi-Structured Documents},
+ booktitle = {Anais do XVI Simpósio Brasileiro de Tecnologia da Informação e da Linguagem Humana},
+ location = {Fortaleza/CE},
+ year = {2025},
+ keywords = {},
+ issn = {0000-0000},
+ pages = {125--136},
+ publisher = {SBC},
+ address = {Porto Alegre, RS, Brasil},
+ doi = {10.5753/stil.2025.37819},
+ url = {https://sol.sbc.org.br/index.php/stil/article/view/37819}
+}
+
